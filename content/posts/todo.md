@@ -37,11 +37,9 @@ How many hundreds or thousands of times have you typed findViewById in your li
 </layout>
 ```
 
-
-
 next in the activity instead of calling setContentView like we normally would, we just call DataBindingUtil.setContentView(activity, layoutId) that returns us a binding object named after our layout's file name (if our layout is activity_main.xml the binding object will be called ActivityMainBinding):
 
-```
+```java
 public class MainActivity extends AppCompatActivity {
     private ActivityMainBinding mBinding;
     @Override
@@ -61,9 +59,7 @@ And that's it! And we don't need to cast or store a reference and clutter our cl
 
 But what if its a Fragment or a custom View you ask? Good question. If its a fragment or a view or anything that needs to be inflated you must use the generated binding object's inflate method like so:
 
-
-
-```
+```java
 public class MainFragment extends Fragment {
     private FragmentMainBinding mBinding;
     @Nullable
@@ -85,7 +81,7 @@ public class MainFragment extends Fragment {
 
 Now lets take it up a notch. Here we will actually bind a model to our UI. In the next example we have a simple model that looks like this:
 
-```
+```java
 public class ProductModel {
     public String name;
     public float price;
@@ -95,7 +91,7 @@ public class ProductModel {
 
 now lets create our layout:
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <layout>
     <data>
@@ -132,9 +128,7 @@ Wait a minute! Whats going on with the values for the text attributes in that la
 \
 Now to pass the model to the layout:
 
-
-
-```
+```java
 mBinding.setProductModel(productModel);
 ```
 
@@ -148,9 +142,7 @@ Pretty simple right? Our binding object now has a setter with the name of the va
 
 Now what if the client tell us they want to have a BUY button on that page? How would we do that with data binding? Wait they also want an empty state AND load a product with a tap of a button?! Ha! Easy! First we want to add a reference to a presenter inside our xml. Using presenter is a good practice to separate event handling from our data. First lets declare an interface for our presenter.
 
-
-
-```
+```java
 public interface ProductPresenter {
     void onProductBuyRequest(ProductModel productModel);
     void onProductLoadRequest();
@@ -160,9 +152,7 @@ public interface ProductPresenter {
 \
 Next lets implement our interface in our activity or on the class you have the reference to the binding object.
 
-
-
-```
+```java
 @Override
 public void onProductBuyRequest(ProductModel productModel) {
     mBinding.setProductModel(null);
@@ -178,9 +168,7 @@ public void onProductLoadRequest() {
 
 Next in our xml we can declare the presenter.
 
-
-
-```
+```xml
 <variable
   name="productPresenter"
   type="com.codeprinciples.databindingdemo.presenter.ProductPresenter"/>
@@ -188,17 +176,13 @@ Next in our xml we can declare the presenter.
 
 Remember to set the presenter on the binding object with
 
-
-
-```
+```java
 mBinding.setProductPresenter(this);
 ```
 
 Now let's add a button to the layout.
 
-
-
-```
+```xml
 <Button
             android:id="@+id/buyProductButton"
             android:layout_width="wrap_content"
@@ -216,9 +200,7 @@ As you can tell more and more logic is added to our xml. But this is safe as it 
 
 How do you make the value from EditText update the model and if the model is updated internally UI to automatically updated? First of we need to make our model extend BaseObservable and create getters and setters that Data Binding library will use to set the text property of our EditText.
 
-
-
-```
+```java
 public class ProductModel  extends BaseObservable {
     private String name;
     private float price;
@@ -269,9 +251,7 @@ public class ProductModel  extends BaseObservable {
 
 Notice the @Bindable annotation marking the getter, in order to mark the getter for our fields so that the Data Binding library can find the methods. Also notice the notifyPropertyChanged() notifying the binding that the field value has changed. These changes are needed to automagically have a two way binding between UI and model. And finally update the xml UI elements.
 
-
-
-```
+```xml
 <TextView
             android:id="@+id/productName"
             android:layout_width="wrap_content"
@@ -300,8 +280,6 @@ Results:
 ### Conclusion
 
 Basic usage of the Data Binding library is easy to begin using in your project. Advanced implementation will require some learning from you and other developers joining the project but is worth the time spent because the code maintainability will improve and will lead to cleaner code in the long run as well as faster development time once mastering all the features of this library.
-
-
 
 ### Resources and Further reading:
 
