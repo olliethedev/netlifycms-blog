@@ -275,7 +275,7 @@ The only notable difference here is instead of `android:text="@{...}"` we use�
 
 Results:
 
-![results](img/results_1.png "results")
+![results](/img/results_1.png "results")
 
 ### Conclusion
 
