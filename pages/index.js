@@ -1,5 +1,6 @@
-import Head from "next/head"
 import React, { Component } from 'react'
+import Head from "next/head"
+import Link from "next/link";
 import { attributes, react as HomeContent } from '../content/home.md';
 
 export default class Home extends Component {
@@ -16,7 +17,7 @@ export default class Home extends Component {
           <ul>
             {posts.map((post, k) => (
               <li key={k}>
-                <h2>{post.name}</h2>
+                <Link href={post.link}><h2>{post.name}</h2></Link>
                 <p>{post.description}</p>
               </li>
             ))}
