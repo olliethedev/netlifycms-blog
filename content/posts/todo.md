@@ -21,7 +21,7 @@ And that's it! Now you can start using the library.\
 \
 Say goodbye to findViewById() for ever!
 
-How many hundreds or thousands of times have you typed findViewById in your lifetime and have accepted your fate as an Android developer to eternally writing findViewById over and over. Well fret no more as Android Data Binding Library comes to the rescue. And this is perhaps the easiest and fastest feature to implement out of the box and use in your existing project. Start by wrapping your layout in a <layout> tag and make sure the elements you need a reference to have an id attribute like so:
+How many hundreds or thousands of times have you typed findViewById in your lifetime and have accepted your fate as an Android developer to eternally writing findViewById over and over. Well fret no more as Android Data Binding Library comes to the rescue. And this is perhaps the easiest and fastest feature to implement out of the box and use in your existing project. Start by wrapping your layout in a `<layout>` tag and make sure the elements you need a reference to have an id attribute like so:
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
 
 And that's it! And we don't need to cast or store a reference and clutter our class with dozens of fields for countless TextViews, ImageViews or Buttons. How amazing is that?! ...What? You say are not impressed? But imagine that your layout has dozens of UI components and as long as you put an id attribute in the xml definition you can just get the view from the generated binding object, like the  ActivityMainBinding class in our example. So to summarize the steps:
 
-1. Wrap xml root element in <layout> tag
+1. Wrap xml root element in `<layout>` tag
 2. Create a binding object
 3. Use binding object to access views
 
@@ -128,7 +128,7 @@ now lets create our layout:
 </layout>
 ```
 
-Wait a minute! Whats going on with the values for the text attributes in that layout? - you ask. Well notice the <variable> tag and the name and type attributes. That is how we tell the layout what model we will be using. And the android:text="@{value}" hold the field values from the model.\
+Wait a minute! Whats going on with the values for the text attributes in that layout? - you ask. Well notice the `<variable>` tag and the name and type attributes. That is how we tell the layout what model we will be using. And the `android:text="@{value}"` hold the field values from the model.\
 \
 Now to pass the model to the layout:
 
@@ -208,7 +208,7 @@ Now let's add a button to the layout.
             android:onClick="@{(v) -> productModel==null? productPresenter.onProductLoadRequest() : productPresenter.onProductBuyRequest(productModel)}"/>
 ```
 
-As you can see we can have simple logic within the "@{...}". Here if our model is null we set our button's text to "Load Model" and onClick listener to  productPresenter.onProductLoadRequest. But if the product model is not null we call productPresenter.onProductBuyRequest(productModel) with the instance of our current productModel.\
+As you can see we can have simple logic within the `@{...}`. Here if our model is null we set our button's text to "Load Model" and onClick listener to  productPresenter.onProductLoadRequest. But if the product model is not null we call productPresenter.onProductBuyRequest(productModel) with the instance of our current productModel.\
 \
 As you can tell more and more logic is added to our xml. But this is safe as it is UI specific logic and this helps keep our Activities and Fragments clean of clutter. Also our code is modular as the Presenter can be any class that implements that interface.
 
@@ -291,8 +291,8 @@ Notice the @Bindable annotation marking the getter, in order to mark the gette
             android:text="@={productModel.quantity}"/>
 ```
 
-The only notable difference here is instead of android:text="@{...}" we use android:text="@={...}" in order to tell the library that this is a two way binding.\
-\
+The only notable difference here is instead of `android:text="@{...}"` we use `android:text="@={...}"` in order to tell the library that this is a two way binding.
+
 Results:
 
 ![results](img/results_1.png "results")
