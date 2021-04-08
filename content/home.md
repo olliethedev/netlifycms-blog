@@ -2,7 +2,7 @@
 title: Latest Posts
 date: 2019-03-17T19:31:20.591Z
 posts:
-  - name: Android Data Binding :: How to Integrate Into Existing App
+  - name: 'Android Data Binding : How to Integrate Into Existing App'
     description: Android Data Binding Library has been production ready for almost a year and you may be wondering if you can start using this great library in an existing project without introducing more bugs and without having to rewrite a lot of exiting code in your project.
     link: /posts/todo
   - name: Title 1
