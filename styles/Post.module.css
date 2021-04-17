@@ -13,3 +13,21 @@
 .body a{
     text-decoration:underline;
 }
+
+.body img {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+@media only screen and (max-width: 1024px) {
+    .body{
+        padding-left: 1rem;
+        padding-right: 1rem;
+        width: 100%;
+    }
+    .body img {
+        width: 100%;
+    }
+}
