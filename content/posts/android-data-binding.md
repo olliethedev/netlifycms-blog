@@ -1,5 +1,5 @@
 ---
-title: Latest Posts
+title: Android Data Binding
 date: 2019-03-17T19:31:20.591Z
 ---
 ### Android Data Binding : How to Integrate Into Existing App
@@ -8,7 +8,7 @@ Android Data Binding Library has been production ready for almost a year and you
 \
 It is easy to begin. If your project is minimum API level 7 or higher and is using Android Plugin for Gradle 1.5.0-alpha1 or higher then you can simply enable the Data Binding library by adding the following to the app module's build.gradle file
 
-```
+```bash
 android {
     ....
     dataBinding {

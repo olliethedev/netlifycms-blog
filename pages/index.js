@@ -11,6 +11,7 @@ export default class Home extends Component {
       <>
         <Head>
           <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+          <title>Ollie Codes | Blog</title>
         </Head>
         <article>
           <h1>{title}</h1>
