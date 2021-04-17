@@ -277,6 +277,10 @@ Results:
 
 ![results](/img/results_1.png "results")
 
+After loading the model:
+
+![results](img/results.png "results")
+
 ### Conclusion
 
 Basic usage of the Data Binding library is easy to begin using in your project. Advanced implementation will require some learning from you and other developers joining the project but is worth the time spent because the code maintainability will improve and will lead to cleaner code in the long run as well as faster development time once mastering all the features of this library.
