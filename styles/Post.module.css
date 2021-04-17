@@ -6,7 +6,6 @@
 }
 
 .body pre{
-    background-color: rgb(240, 240, 240);
     overflow: scroll;
     padding: 1rem;
 }
