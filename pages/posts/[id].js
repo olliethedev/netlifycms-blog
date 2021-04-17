@@ -1,8 +1,6 @@
 import React from "react";
-import { useRouter } from "next/router";
 import fs from 'fs';
 import path from 'path';
-import dynamic from "next/dynamic";
 import Head from 'next/head';
 import styles from  "../../styles/Post.module.css";
 import 'prismjs/themes/prism-okaidia.css';
@@ -10,8 +8,6 @@ import 'prismjs/themes/prism-okaidia.css';
 
 
 const Post = ({post}) => {
-  const router = useRouter();
-  const { id } = router.query;
   const {attributes, html} = post;
 
   return (
@@ -31,6 +27,7 @@ const Post = ({post}) => {
 export default Post;
 
 export async function getStaticProps({params}){
+  console.log("building...")
     const { id } = params;
     console.log(id);
     const [blogpost] = await Promise.all([
@@ -41,6 +38,7 @@ export async function getStaticProps({params}){
 }
 
 export async function getStaticPaths() {
+  console.log("building...")
   const paths = fs
     .readdirSync(path.join(process.cwd(), 'content/posts'))
     .map(blogName => {

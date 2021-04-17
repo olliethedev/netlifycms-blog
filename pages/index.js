@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Head from "next/head";
 import Link from "next/link";
-import { attributes, react as HomeContent } from "../content/home.md";
+import { attributes, html } from "../content/home.md";
 import styles from  "../styles/Home.module.css";
 
 export default class Home extends Component {
@@ -13,9 +13,11 @@ export default class Home extends Component {
           <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
           <title>Ollie Codes | Blog</title>
         </Head>
-        <article>
-          <h1>{title}</h1>
-          <HomeContent />
+        <div className={styles.body}>
+          <div className={styles.hero}>
+            <h1>{title}</h1>
+            <div dangerouslySetInnerHTML={{ __html: html }}/>
+          </div>
           <ul>
             {posts.map((post, k) => (
               <div key={k}>
@@ -26,7 +28,7 @@ export default class Home extends Component {
               </div>
             ))}
           </ul>
-        </article>
+        </div>
       </>
     );
   }
