@@ -279,7 +279,7 @@ Results:
 
 After loading the model:
 
-![results](img/results.png "results")
+![results](/img/results.png "results")
 
 ### Conclusion
 
