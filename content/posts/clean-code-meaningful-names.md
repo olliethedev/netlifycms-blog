@@ -6,7 +6,7 @@ date: 2021-04-18T21:37:14.544Z
 
 ![hero](/img/codenames_1.png "hero")
 
-Names are everything! Files, classes, functions, variables all need a name, therefore we should cate about good names. Good names save more time than they take. Coming up with good descriptive names that don't confuse the developer who has to read the code in the future may come with no effort to some, but for others it may feel like a constant struggle. Readable, and intuitive names are a foundation of clean code. Let's take a look at some key principles that will help you come up with good names in your code.
+Names are everything! Files, classes, functions, variables all need a name, therefore we should care about good names. Good names save more time than they take. Coming up with good descriptive names that don't confuse the developer who has to read the code in the future may come with no effort to some, but for others it may feel like a constant struggle. Readable, and intuitive names are a foundation of clean code. Let's take a look at some key principles that will help you come up with good names in your code.
 
 ### Intention Revealing
 
