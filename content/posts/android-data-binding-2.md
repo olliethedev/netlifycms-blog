@@ -332,6 +332,4 @@ As you can see the power of Android' Data Binding library and its potential to s
 
 ### Liked this blog post? Want to learn more? 
 
-Take my Udemy course on Android Data Binding [here](https://www.udemy.com/learn-android-master-data-binding/):
-
-![data binding course](img/3792356_cda7.jpeg "data binding course")
+Take my Udemy course on Android Data Binding [here](https://www.udemy.com/learn-android-master-data-binding/)
