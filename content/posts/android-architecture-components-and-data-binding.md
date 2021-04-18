@@ -92,7 +92,7 @@ Our model has one field that is used to store user's name. A POJO.
 
   ## The result:
 
-  ![result](img/ezgif-5-a842fa6408.gif "result")
+  ![result](/img/ezgif-5-a842fa6408.gif "result")
 
 
 
