@@ -22,5 +22,9 @@ posts:
       and your data access objects (DAO's) to generate database schema (table
       definitions) and SQLite queries.
     name: "Android Architecture Components : Room Persistence Library"
+  - link: /posts/android-architecture-components-livedata
+    description: Let's see how we can create dynamic data models that respect
+      life-cycle much easier using LiveData.
+    name: "Android Architecture Components : LiveData"
 ---
 Hope you enjoy these posts as much as I have enjoyed writing them.
