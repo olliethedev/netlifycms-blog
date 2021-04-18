@@ -14,7 +14,7 @@ And all of these can be implemented in a generic manner with Android Data Bindin
 \
 Final result:
 
-![result](img/ezgif-4-19e52bb548.gif "result")
+![result](/img/ezgif-4-19e52bb548.gif "result")
 
 Lets begin by defining our adapter:
 
@@ -297,7 +297,7 @@ The callbacks of the **ListItemPresenter** implementation allows us to handle 
 \
 Results:
 
-![result](img/ezgif-4-19e52bb548.gif "result")
+![result](/img/ezgif-4-19e52bb548.gif "result")
 
 ### Sources and further reading:
 
@@ -310,4 +310,4 @@ Results:
 
 Take my Udemy course on Android Data Binding [here](https://www.udemy.com/learn-android-master-data-binding/):
 
-![data binding](img/3792356_cda7.jpeg "data binding")
+![data binding](/img/3792356_cda7.jpeg "data binding")
