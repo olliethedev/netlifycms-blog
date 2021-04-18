@@ -13,7 +13,7 @@ posts:
       Binding library. Some will save you a lots of time and some will seem like
       magic.
     link: /posts/android-data-binding-2
-  - name: Title 2
+  - name: "Android Data Binding : Dynamic RecyclerView Adapter"
     description: Another test post
     link: /posts/android-data-binding-3
 ---
