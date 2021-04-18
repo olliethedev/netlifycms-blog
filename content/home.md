@@ -36,5 +36,9 @@ posts:
       powerful yet reusable RecyclerView adapter that leverages
       ObservableArrayList and DataBinding to simplify your life. "
     name: "Android Lists Made Easy: DataBinding + RecyclerViewBindingAdapter Library"
+  - link: /posts/android-architecture-components-and-data-binding
+    description: "Finally Android Data Binding library got updated to play nice with
+      Android Architecture Components library and became life-cycle aware! "
+    name: Android Architecture Components and Data Binding
 ---
 Hope you enjoy these posts as much as I have enjoyed writing them.
