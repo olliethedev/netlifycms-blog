@@ -40,5 +40,11 @@ posts:
     description: "Finally Android Data Binding library got updated to play nice with
       Android Architecture Components library and became life-cycle aware! "
     name: Android Architecture Components and Data Binding
+  - link: /posts/kotlin-ktor-building-a-cryptocurrency
+    name: "Kotlin + Ktor : Building a Cryptocurrency"
+    description: Kotlin has been becoming more and more mature with every release.
+      We arguably have the most concise modern programming language that
+      currently exists.  Let's see what the code would look like if we were to
+      create our own cryptocurrency with Kotlin.
 ---
 Hope you enjoy these posts as much as I have enjoyed writing them.
