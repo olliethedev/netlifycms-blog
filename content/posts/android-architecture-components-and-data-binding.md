@@ -90,12 +90,10 @@ Our model has one field that is used to store user's name. A POJO.
 * We also have an **EditText** that is two-way bound to the user's name, meaning when text gets entered, the name is updated and vise-versa, when the user **LiveDate** is updated the **EditText** is updated.
 * And finally a button onClick of which we post a change to our **LiveData** and all the observers get notified.
 
-  ## The result:
+## The result:
 
-  ![result](/img/ezgif-5-a842fa6408.gif "result")
+![result](/img/ezgif-5-a842fa6408.gif "result")
 
+#### Resources:
 
-
-  #### Resources:
-
-  * Full source for the project: [here](https://github.com/Code-Principles/NewStudioTestApplication)
+* Full source for the project: [here](https://github.com/Code-Principles/NewStudioTestApplication)
