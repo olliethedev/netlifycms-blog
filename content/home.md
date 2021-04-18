@@ -17,5 +17,10 @@ posts:
     description: Common Android recycler view patterns implemented in a reactive and
       generic manner with Android Data Binding library.
     link: /posts/android-data-binding-3
+  - link: /posts/android-architecture-components-room-persistence-library
+    description: Room is a library that uses annotations in your Java data models
+      and your data access objects (DAO's) to generate database schema (table
+      definitions) and SQLite queries.
+    name: "Android Architecture Components : Room Persistence Library"
 ---
 Hope you enjoy these posts as much as I have enjoyed writing them.
