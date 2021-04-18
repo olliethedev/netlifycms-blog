@@ -5,7 +5,7 @@ import styles from "../styles/Home.module.css";
 
 const Home = ({ post }) => {
   const { attributes, html } = post;
-  const { title, posts } = attributes;
+  const { title, postsReversed } = attributes;
   return (
     <>
       <Head>
@@ -18,7 +18,7 @@ const Home = ({ post }) => {
           <div dangerouslySetInnerHTML={{ __html: html }} />
         </div>
         <ul>
-          {posts.reverse().map((post, k) => (
+          {postsReversed.map((post, k) => (
             <div key={k}>
               <Link href={post.link}>
                 <h2 className={styles.link}>{post.name}</h2>
@@ -40,5 +40,6 @@ export async function getStaticProps() {
     import(`../content/home.md`).catch(() => null),
   ]);
   const { attributes = {}, html } = blogpost?.default ?? {};
+  attributes.postsReversed = attributes.posts.reverse();
   return { props: { post: { attributes, html } } };
 }
