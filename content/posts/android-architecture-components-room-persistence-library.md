@@ -18,7 +18,7 @@ After many years and using countless 3rd party DAO libraries I am happy to final
 * Index primary key columns for performance
 * Use SQL queries to find sort and filter the data from tables
 
-  ![sheet](img/unnamed-1-.png "sheet")
+  ![sheet](/img/unnamed-1-.png "sheet")
 
 ### What is Room?
 
