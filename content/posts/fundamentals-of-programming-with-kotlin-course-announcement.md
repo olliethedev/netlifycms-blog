@@ -4,7 +4,7 @@ date: 2021-04-18T21:22:07.864Z
 ---
 ## Fundamentals Of Programming With Kotlin
 
-![hero](img/1926050_656e.jpeg "hero")
+![hero](/img/1926050_656e.jpeg "hero")
 
 ## Requirements
 
