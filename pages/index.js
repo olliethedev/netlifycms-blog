@@ -19,7 +19,7 @@ export default class Home extends Component {
             <div dangerouslySetInnerHTML={{ __html: html }}/>
           </div>
           <ul>
-            {posts.map((post, k) => (
+            {posts.reverse().map((post, k) => (
               <div key={k}>
                 <Link href={post.link}>
                   <h2 className={styles.link}>{post.name}</h2>
