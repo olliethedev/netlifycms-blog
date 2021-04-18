@@ -31,5 +31,10 @@ posts:
       intended to store and manage UI-related data so that the data survives
       configuration changes.
     name: "Android Architecture Components : ViewModel"
+  - link: /posts/android-lists-made-easy-databinding-recyclerviewbindingadapter-library
+    description: "RecyclerViewBindingAdapter Library This library provides a
+      powerful yet reusable RecyclerView adapter that leverages
+      ObservableArrayList and DataBinding to simplify your life. "
+    name: "Android Lists Made Easy: DataBinding + RecyclerViewBindingAdapter Library"
 ---
 Hope you enjoy these posts as much as I have enjoyed writing them.
