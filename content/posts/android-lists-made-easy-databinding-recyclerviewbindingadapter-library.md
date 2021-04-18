@@ -6,7 +6,7 @@ date: 2021-04-18T20:37:06.094Z
 
 This library provides a powerful yet reusable RecyclerView adapter that leverages ObservableArrayList and DataBinding to simplify your life. Tell the adapter which layouts your models map to and then just modify your observable list and the adapter takes care of the rest. Its that simple! Check out the library and example app source code [here](https://github.com/Code-Principles/RecyclerViewBindingAdapter).
 
-![result](img/ezgif-4-993a006886.gif "result")
+![result](/img/ezgif-4-993a006886.gif "result")
 
 ### Step 1:
 
