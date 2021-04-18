@@ -46,5 +46,9 @@ posts:
       We arguably have the most concise modern programming language that
       currently exists.  Let's see what the code would look like if we were to
       create our own cryptocurrency with Kotlin.
+  - link: /posts/fundamentals-of-programming-with-kotlin-course-announcement
+    description: "Do you wan't to learn how to quickly and easily develop
+      applications but don't know where to start? "
+    name: "Fundamentals Of Programming With Kotlin : Course Announcement"
 ---
 Hope you enjoy these posts as much as I have enjoyed writing them.
