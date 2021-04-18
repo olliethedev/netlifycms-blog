@@ -6,7 +6,7 @@ date: 2021-04-18T19:58:46.463Z
 
 After many years and using countless 3rd party DAO libraries I am happy to finally introduce official Android solution to working with SQLite databases and it is called Room Persistence Library. Before we begin you can find code from this tutorial [here](https://github.com/Code-Principles/android-arch-comp-proj).
 
-![hero](img/desktoproom-2x.png "hero")
+![hero](/img/desktoproom-2x.png "hero")
 
 ### SQL Review
 
