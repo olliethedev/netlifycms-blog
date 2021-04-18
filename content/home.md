@@ -26,5 +26,10 @@ posts:
     description: Let's see how we can create dynamic data models that respect
       life-cycle much easier using LiveData.
     name: "Android Architecture Components : LiveData"
+  - link: /posts/android-architecture-components-viewmodel
+    description: Android Architecture Components library has ViewModel class that is
+      intended to store and manage UI-related data so that the data survives
+      configuration changes.
+    name: "Android Architecture Components : ViewModel"
 ---
 Hope you enjoy these posts as much as I have enjoyed writing them.
