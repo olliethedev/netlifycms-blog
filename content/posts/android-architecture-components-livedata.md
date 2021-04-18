@@ -4,7 +4,7 @@ date: 2021-04-18T20:10:46.594Z
 ---
 ## Live Data : Life-cycle aware Observables
 
-![hero](img/live_datal_logo.png "hero")
+![hero](/img/live_datal_logo.png "hero")
 
 \
 As an Android developer you often have to work with data that is dynamic and changing with user input, device configuration changes, or even time changes. On top of this as a developer you have to respect the life-cycle of an Activity of Fragment that contains this dynamically changing data: stop updates onStop() or onPause() and restart the updates onStart() and onResume(). Examples of this is location data, countdown timers, user's list selections and any other type of dynamically changing data. Lets see how we can make these tasks easier using LiveData. We will demonstrate LiveData by creating a self contained timer.
