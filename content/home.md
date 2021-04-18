@@ -14,7 +14,8 @@ posts:
       magic.
     link: /posts/android-data-binding-2
   - name: "Android Data Binding : Dynamic RecyclerView Adapter"
-    description: Another test post
+    description: Common Android recycler view patterns implemented in a reactive and
+      generic manner with Android Data Binding library.
     link: /posts/android-data-binding-3
 ---
 Hope you enjoy these posts as much as I have enjoyed writing them.
