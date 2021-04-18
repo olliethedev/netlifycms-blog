@@ -308,6 +308,4 @@ Results:
 
 ### Liked this blog post? Want to learn more? 
 
-Take my Udemy course on Android Data Binding [here](https://www.udemy.com/learn-android-master-data-binding/):
-
-![data binding](/img/3792356_cda7.jpeg "data binding")
+Take my Udemy course on Android Data Binding [here](https://www.udemy.com/learn-android-master-data-binding/)
