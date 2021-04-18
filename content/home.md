@@ -50,5 +50,11 @@ posts:
     description: "Do you wan't to learn how to quickly and easily develop
       applications but don't know where to start? "
     name: "Fundamentals Of Programming With Kotlin : Course Announcement"
+  - name: "Clean Code: Introduction"
+    link: /posts/clean-code-introduction
+    description: No matter what platform or language or framework you are using, the
+      fundamental Clean Code principles DO NO CHANGE. The CLEAN CODE series is
+      the exploration of tried and tested rules for writing clean a readable
+      code.
 ---
 Hope you enjoy these posts as much as I have enjoyed writing them.
