@@ -12,9 +12,9 @@ posts:
     description: You can do a lot of awesome things while using the Android Data
       Binding library. Some will save you a lots of time and some will seem like
       magic.
-    link: /posts/title-1
+    link: /posts/android-data-binding-2
   - name: Title 2
     description: Another test post
-    link: /posts/title-2
+    link: /posts/android-data-binding-3
 ---
 Hope you enjoy these posts as much as I have enjoyed writing them.
