@@ -6,7 +6,7 @@ date: 2021-04-18T20:20:47.617Z
 
 One of the biggest challenges for an Android developer is keeping data across configuration changes such as screen rotation or during the recreation of Activity/Fragments after it's been destroyed and recreated by the framework. Luckily the new Android Architecture Components library has ViewModel class that is intended to store and manage UI-related data so that the data survives configuration changes. 
 
-![hero](img/view_model_logo.png "hero")
+![hero](/img/view_model_logo.png "hero")
 
 ### Benefits
 
@@ -50,7 +50,7 @@ Now the Activity (or Fragments) can access this view-model via ViewModelProv
 
 ### Results
 
-![results](img/ezgif-4-cfded55b0e.gif "results")
+![results](/img/ezgif-4-cfded55b0e.gif "results")
 
 ### Sources and further reading:
 
