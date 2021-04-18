@@ -56,5 +56,9 @@ posts:
       fundamental Clean Code principles DO NO CHANGE. The CLEAN CODE series is
       the exploration of tried and tested rules for writing clean a readable
       code.
+  - link: /posts/clean-code-meaningful-names
+    description: Names are everything! Files, classes, functions, variables all need
+      a name, therefore we should care about good names.
+    name: "Clean Code: Meaningful Names"
 ---
-Hope you enjoy these posts as much as I have enjoyed writing them.
+My tutorials and general thoughts on all things tech related.
