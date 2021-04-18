@@ -19,7 +19,7 @@ Blockchain is a very simple data structure, similar to a linked list. The main d
 * **data**: this could be any data like transaction inputs and outputs, smart contract states and inputs, or any other data you wish to store. For this lesson we will keep a string value but in the next lessons we will store transaction data in this field.
 * **hash**: unlike other fields this is a function that is called on the block to calculate its hash.
 
-![blockchain diagram](img/blockchain-diagram-3-1-.png "blockchain diagram")
+![blockchain diagram](/img/blockchain-diagram-3-1-.png "blockchain diagram")
 
 There is a built in security feature in such a data structure. In order for a malicious actor to change a single block's data, the actor would have to modify the hash of that block and all the block following it in order to maintain the validity of the data structure.
 
