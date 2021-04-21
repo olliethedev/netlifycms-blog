@@ -64,5 +64,10 @@ posts:
     description: Functions are fundamental to any software. But how to write them so
       that they are readable, maintainable, and simple.
     name: "Clean Code: Funtions"
+  - name: "Clean Code: Comments"
+    link: /posts/clean-code-comments
+    description: We know that comments can be valuable, but how do we make sure that
+      the comments provide the most amount of help and do not become damaging to
+      the productivity?
 ---
 My tutorials and general thoughts on all things tech related.
