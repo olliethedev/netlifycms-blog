@@ -60,5 +60,9 @@ posts:
     description: Names are everything! Files, classes, functions, variables all need
       a name, therefore we should care about good names.
     name: "Clean Code: Meaningful Names"
+  - link: /posts/clean-code-functions
+    description: Functions are fundamental to any software. But how to write them so
+      that they are readable, maintainable, and simple.
+    name: "Clean Code: Funtions"
 ---
 My tutorials and general thoughts on all things tech related.
