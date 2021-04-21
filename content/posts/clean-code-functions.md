@@ -4,7 +4,7 @@ date: 2021-04-20T23:28:10.818Z
 ---
 # Functions
 
-![Functions](img/220px-function_machine2.svg.png "Functions")
+![Functions](/img/220px-function_machine2.svg.png "Functions")
 
 Functions are a fundamental block of any software. You can get by without Classes but you can not create anything more than a script without functions. This is why its important to know how to write clean and readable functions.
 
