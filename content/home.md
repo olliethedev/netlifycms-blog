@@ -69,5 +69,9 @@ posts:
     description: We know that comments can be valuable, but how do we make sure that
       the comments provide the most amount of help and do not become damaging to
       the productivity?
+  - name: "Clean Code: Objects and Data Structures"
+    link: /posts/clean-code-objects-and-data-structures
+    description: The distinction between objects and data structures is an important
+      one. And knowing when to use each kind is crucial to writing clean code.
 ---
 My tutorials and general thoughts on all things tech related.
