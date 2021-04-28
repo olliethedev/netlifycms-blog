@@ -36,5 +36,42 @@ posts:
       powerful yet reusable RecyclerView adapter that leverages
       ObservableArrayList and DataBinding to simplify your life. "
     name: "Android Lists Made Easy: DataBinding + RecyclerViewBindingAdapter Library"
+  - link: /posts/android-architecture-components-and-data-binding
+    description: "Finally Android Data Binding library got updated to play nice with
+      Android Architecture Components library and became life-cycle aware! "
+    name: Android Architecture Components and Data Binding
+  - link: /posts/kotlin-ktor-building-a-cryptocurrency
+    name: "Kotlin + Ktor : Building a Cryptocurrency"
+    description: Kotlin has been becoming more and more mature with every release.
+      We arguably have the most concise modern programming language that
+      currently exists.  Let's see what the code would look like if we were to
+      create our own cryptocurrency with Kotlin.
+  - link: /posts/fundamentals-of-programming-with-kotlin-course-announcement
+    description: "Do you wan't to learn how to quickly and easily develop
+      applications but don't know where to start? "
+    name: "Fundamentals Of Programming With Kotlin : Course Announcement"
+  - name: "Clean Code: Introduction"
+    link: /posts/clean-code-introduction
+    description: No matter what platform or language or framework you are using, the
+      fundamental Clean Code principles DO NO CHANGE. The CLEAN CODE series is
+      the exploration of tried and tested rules for writing clean a readable
+      code.
+  - link: /posts/clean-code-meaningful-names
+    description: Names are everything! Files, classes, functions, variables all need
+      a name, therefore we should care about good names.
+    name: "Clean Code: Meaningful Names"
+  - link: /posts/clean-code-functions
+    description: Functions are fundamental to any software. But how to write them so
+      that they are readable, maintainable, and simple.
+    name: "Clean Code: Funtions"
+  - name: "Clean Code: Comments"
+    link: /posts/clean-code-comments
+    description: We know that comments can be valuable, but how do we make sure that
+      the comments provide the most amount of help and do not become damaging to
+      the productivity?
+  - name: "Clean Code: Objects and Data Structures"
+    link: /posts/clean-code-objects-and-data-structures
+    description: The distinction between objects and data structures is an important
+      one. And knowing when to use each kind is crucial to writing clean code.
 ---
-Hope you enjoy these posts as much as I have enjoyed writing them.
+My tutorials and general thoughts on all things tech related.
