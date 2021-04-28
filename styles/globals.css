@@ -24,3 +24,17 @@ a {
   outline: none;
   border: none;
 }
+
+@media (prefers-reduced-motion: no-preference) {
+  .hero-pop {
+    animation: pop-animation 1 200ms linear;
+  }
+}
+@keyframes pop-animation {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}

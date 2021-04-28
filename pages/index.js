@@ -15,7 +15,7 @@ const Home = ({ post }) => {
       </Head>
       <div className={styles.body}>
         <div className={styles.hero}>
-          <img src={hero} alt="hero" />
+          <img className="hero-pop" src={hero} alt="hero" />
           <h1>{title}</h1>
           <div dangerouslySetInnerHTML={{ __html: html }} />
         </div>
