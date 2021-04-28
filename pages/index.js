@@ -1,11 +1,12 @@
 import React from "react";
 import Head from "next/head";
 import Link from "next/link";
+import moment from "moment";
 import styles from "../styles/Home.module.css";
 
 const Home = ({ post }) => {
   const { attributes, html } = post;
-  const { title, postsReversed } = attributes;
+  const { title, hero, postsReversed } = attributes;
   return (
     <>
       <Head>
@@ -14,6 +15,7 @@ const Home = ({ post }) => {
       </Head>
       <div className={styles.body}>
         <div className={styles.hero}>
+          <img src={hero} alt="hero" />
           <h1>{title}</h1>
           <div dangerouslySetInnerHTML={{ __html: html }} />
         </div>
@@ -23,6 +25,12 @@ const Home = ({ post }) => {
               <Link href={post.link}>
                 <h2 className={styles.link}>{post.name}</h2>
               </Link>
+              <sup>
+                {post.date &&
+                  moment(post.date, "YYYY-MM-DDTHH:mm:ss.SSS").format(
+                    "MMM YYYY"
+                  )}
+              </sup>
               <p>{post.description}</p>
             </div>
           ))}
