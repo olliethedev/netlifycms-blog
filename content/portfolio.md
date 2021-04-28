@@ -2,14 +2,14 @@
 title: Portfolio
 hero: "/img/hero_portfolio.png"
 projects:  
-  - name: "Propmate"
-    date: 2021-04-18T20:10:46.594Z
-    link: "https://getpropmate.com/"
-    description: "Custom property management platform used by 18Brownlow.com"
   - name: "Aion Staking Wallet"
     date: 2021-04-18T20:10:46.594Z
     link: "https://my-aion.theoan.com/home"
     description: "Web wallet for Aion cryptocurrency"
+  - name: "alwaysaugust.co"
+    date: 2020-04-18T20:10:46.594Z
+    link: "https://alwaysaugust.co/"
+    description: "August Digital company website"
   - name: "Moves Crypto"
     date: 2020-04-18T20:10:46.594Z
     link: "https://aion.theoan.com/blog/launching-moves-crypto/"
