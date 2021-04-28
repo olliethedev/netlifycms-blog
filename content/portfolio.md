@@ -1,5 +1,6 @@
 ---
 title: Portfolio
+hero: "/img/hero_portfolio.png"
 projects:  
   - name: "Propmate"
     date: 2021-04-18T20:10:46.594Z
