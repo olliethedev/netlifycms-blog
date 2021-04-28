@@ -1,0 +1,33 @@
+.body{
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    word-wrap: break-word;
+}
+.body .link {
+    cursor:pointer;
+}
+.body .hero {
+    text-align: center;
+}
+.body ul{
+    padding-left: 0;
+    padding-right: 0;
+}
+.body ul h2{
+    margin-bottom: 4px;
+}
+.body ul sup{
+    color: rgb(99, 99, 99);
+}
+.body ul p{
+    margin-top: 5px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .body{
+        padding-left: 1rem;
+        padding-right: 1rem;
+        width: 100%;
+    }
+}
