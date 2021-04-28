@@ -10,7 +10,7 @@ const Experiments = ({ project }) => {
     <>
       <Head>
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-        <title>Ollie Codes | Portfolio</title>
+        <title>Ollie Codes | Experiments</title>
       </Head>
       <div className={styles.body}>
         <div className={styles.hero}>
