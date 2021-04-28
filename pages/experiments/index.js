@@ -3,7 +3,7 @@ import Head from "next/head";
 import moment from "moment";
 import styles from "../../styles/Portfolio.module.css";
 
-const Portfolio = ({ project }) => {
+const Experiments = ({ project }) => {
   const { attributes, html } = project;
   const { title, hero, projects } = attributes;
   return (
@@ -31,7 +31,7 @@ const Portfolio = ({ project }) => {
               <sup>
                 {project.date &&
                   moment(project.date, "YYYY-MM-DDTHH:mm:ss.SSS").format(
-                    "YYYY"
+                    "MMM YYYY"
                   )}
               </sup>
               <p>{project.description}</p>
@@ -43,13 +43,13 @@ const Portfolio = ({ project }) => {
   );
 };
 
-export default Portfolio;
+export default Experiments;
 
 export async function getStaticProps() {
   console.log("building...");
-  const [post] = await Promise.all([
-    import(`../../content/portfolio.md`).catch(() => null),
+  const [experiments] = await Promise.all([
+    import(`../../content/experiments.md`).catch(() => null),
   ]);
-  const { attributes = {}, html } = post?.default ?? {};
+  const { attributes = {}, html } = experiments?.default ?? {};
   return { props: { project: { attributes, html } } };
 }

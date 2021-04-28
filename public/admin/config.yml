@@ -38,6 +38,21 @@ collections:
             - { label: "Date", name: "date", widget: "datetime" }
             - { label: "Link", name: "link", widget: "text"}
             - { label: "Description", name: "description", widget: "text"}
+    - label: "Experiments"
+      name: "experiments"
+      file: "content/experiments.md"
+      fields:
+        - { label: "Title", name: "title", widget: "string"}
+        - { label: "Hero Image", name: "hero", widget: "image" }
+        - { label: "Body", name: "body", widget: "markdown"}
+        - label: 'Projects'
+          name: "projects"
+          widget: list
+          fields:
+            - { label: "Name", name: "name", widget: "string"}
+            - { label: "Date", name: "date", widget: "datetime" }
+            - { label: "Link", name: "link", widget: "text"}
+            - { label: "Description", name: "description", widget: "text"}
   - label: "Posts"
     name: "posts"
     folder: "content/posts"
