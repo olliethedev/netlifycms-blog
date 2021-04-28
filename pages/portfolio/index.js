@@ -21,7 +21,7 @@ const Portfolio = ({ project }) => {
         <ul>
           {projects.map((project, k) => (
             <div key={k}>
-                <Link href={project.link}>
+                <Link href={project.link} target="_blank" rel="noopener noreferrer">
                     <h2 className={styles.link}>{project.name}</h2>
                 </Link>
                 <sup>{project.date && moment(project.date, "YYYY-MM-DDTHH:mm:ss.SSS").format("YYYY")}</sup>
