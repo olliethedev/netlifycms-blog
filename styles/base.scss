@@ -1,0 +1,51 @@
+//Common styles
+
+//Mobile Mixin
+@mixin mobile {
+    @media only screen and (max-width: 680px) {
+      @content;
+    }
+  }
+  
+  //Elements
+  
+  %common-body {
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    word-wrap: break-word;
+    @include mobile {
+      padding-left: 1rem;
+      padding-right: 1rem;
+      width: 100%;
+    }
+    .link {
+      cursor: pointer;
+    }
+    .hero {
+      text-align: center;
+      img {
+        width: 300px;
+        height: 300px;
+        @include mobile {
+          padding-left: 1rem;
+          padding-right: 1rem;
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+    ul {
+      padding-left: 0;
+      padding-right: 0;
+      h2 {
+        margin-bottom: 4px;
+      }
+      sup {
+        color: rgb(99, 99, 99);
+      }
+      p {
+        margin-top: 5px;
+      }
+    }
+  }

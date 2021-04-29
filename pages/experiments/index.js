@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import moment from "moment";
-import styles from "../../styles/Portfolio.module.css";
+import styles from "../../styles/Experiments.module.scss";
 
 const Experiments = ({ project }) => {
   const { attributes, html } = project;

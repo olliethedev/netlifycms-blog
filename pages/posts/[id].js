@@ -2,7 +2,7 @@ import React from "react";
 import fs from "fs";
 import path from "path";
 import Head from "next/head";
-import styles from "../../styles/Post.module.css";
+import styles from "../../styles/Post.module.scss";
 import "prismjs/themes/prism-okaidia.css";
 
 const Post = ({ post }) => {
