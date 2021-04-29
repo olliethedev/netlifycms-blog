@@ -23,9 +23,99 @@ Functions are a fundamental block of any software. You can get by without Classe
 * Conceptual template for creating functions is: To (function name), we (verb) and/or (variables).
 * Function should be simple enough that it cannot be divided further.
 
+**Bad:**
+
+```javascript
+function emailClients(clients) {
+  clients.forEach(client => {
+    const clientRecord = database.lookup(client);
+    if (clientRecord.isActive()) {
+      email(client);
+    }
+  });
+}
+```
+
+**Good:**
+
+```javascript
+function emailActiveClients(clients) {
+  clients.filter(isActiveClient).forEach(email);
+}
+
+function isActiveClient(client) {
+  const clientRecord = database.lookup(client);
+  return clientRecord.isActive();
+}
+```
+
 ## One level of abstraction
 
 Mixing levels of abstraction makes it hard for the reader to understand if an expression is an essential concept or detail.
+
+**Bad:**
+
+```javascript
+function parseBetterJSAlternative(code) {
+  const REGEXES = [
+    // ...
+  ];
+
+  const statements = code.split(" ");
+  const tokens = [];
+  REGEXES.forEach(REGEX => {
+    statements.forEach(statement => {
+      // ...
+    });
+  });
+
+  const ast = [];
+  tokens.forEach(token => {
+    // lex...
+  });
+
+  ast.forEach(node => {
+    // parse...
+  });
+}
+```
+
+**Good:**
+
+```javascript
+function parseBetterJSAlternative(code) {
+  const tokens = tokenize(code);
+  const syntaxTree = parse(tokens);
+  syntaxTree.forEach(node => {
+    // parse...
+  });
+}
+
+function tokenize(code) {
+  const REGEXES = [
+    // ...
+  ];
+
+  const statements = code.split(" ");
+  const tokens = [];
+  REGEXES.forEach(REGEX => {
+    statements.forEach(statement => {
+      tokens.push(/* ... */);
+    });
+  });
+
+  return tokens;
+}
+
+function parse(tokens) {
+  const syntaxTree = [];
+  tokens.forEach(token => {
+    syntaxTree.push(/* ... */);
+  });
+
+  return syntaxTree;
+}
+```
 
 ## The step down rule
 
@@ -45,6 +135,30 @@ Mixing levels of abstraction makes it hard for the reader to understand if an ex
 * Name should explain what a function does.
 * Be consistent with which phrases, nouns and verbs you use.
 
+**Bad:**
+
+```javascript
+function addToDate(date, month) {
+  // ...
+}
+
+const date = new Date();
+
+// It's hard to tell from the function name what is added
+addToDate(date, 1);
+```
+
+**Good:**
+
+```javascript
+function addMonthToDate(month, date) {
+  // ...
+}
+
+const date = new Date();
+addMonthToDate(1, date);
+```
+
 ## Arguments
 
 * The less arguments the better. Ideally no arguments.
@@ -58,6 +172,32 @@ Mixing levels of abstraction makes it hard for the reader to understand if an ex
 * Transformation: `InputStream fileOpen("MyFile");`
 * The distinction between a transformation and a question should be clear and consistent.
 * And finally, there is also and Event, where a function takes input but does not return a value `void passwordFailed(times);`
+
+**Bad:**
+
+```javascript
+function createMenu(title, body, buttonText, cancellable) {
+  // ...
+}
+
+createMenu("Foo", "Bar", "Baz", true);
+
+```
+
+**Good:**
+
+```javascript
+function createMenu({ title, body, buttonText, cancellable }) {
+  // ...
+}
+
+createMenu({
+  title: "Foo",
+  body: "Bar",
+  buttonText: "Baz",
+  cancellable: true
+});
+```
 
 ## Flag Arguments
 
@@ -73,16 +213,14 @@ Mixing levels of abstraction makes it hard for the reader to understand if an ex
   * Make function member of class instead.
   * Abstract arguments into object.
 
-
-
 ## Argument objects
 
 When function needs more than one or two arguments, they should be wrapped into a class.
 
 ## Verbs and keywords
 
-* Functions should be written as verb noun pairs ```write(name);```
-* Can include keywords ```assertArrayContains(object);```
+* Functions should be written as verb noun pairs `write(name);`
+* Can include keywords `assertArrayContains(object);`
 
 ## Nave no side effects
 
@@ -110,25 +248,3 @@ When function needs more than one or two arguments, they should be wrapped into 
 * Just like any writing, fist you get your thoughts down, then you massage it until it reads well.
 * At first your functions are messy but then you refine the code, splitting functions, changing names, eliminating duplication, shrinking, and reordering.
 * Functions are verbs and Classed are nouns in the language programmers describe a system.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

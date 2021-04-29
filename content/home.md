@@ -1,7 +1,7 @@
 ---
 title: Latest Posts
 date: 2019-03-17T19:31:20.591Z
-hero: "/img/hero_blog.png"
+hero: /img/hero_blog.png
 posts:
   - name: "Android Data Binding : How to Integrate Into Existing App"
     date: 2018-11-18T20:10:46.594Z
@@ -77,7 +77,7 @@ posts:
     date: 2021-02-18T20:10:46.594Z
     description: Functions are fundamental to any software. But how to write them so
       that they are readable, maintainable, and simple.
-    name: "Clean Code: Funtions"
+    name: "Clean Code: Functions"
   - name: "Clean Code: Comments"
     link: /posts/clean-code-comments
     date: 2021-04-18T20:10:46.594Z
