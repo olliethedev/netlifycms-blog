@@ -32,6 +32,23 @@ Avoid extreme abbreviation. The reader of the code must not spend too much time 
 
 Modern software development tools allow for code completion, where you type part of the variable name and the tool will give you suggestions that you can pick from. Hence saving you time trying to lookup the class, function or field name. To let the tools help you, you should avoid using single character names. 
 
+**Bad:**
+
+```javascript
+// What the heck is 86400000 for?
+setTimeout(blastOff, 86400000);
+```
+
+**Good:**
+
+```javascript
+// Declare them as capitalized named constants.
+const MILLISECONDS_IN_A_DAY = 60 * 60 * 24 * 1000; //86400000;
+
+setTimeout(blastOff, MILLISECONDS_IN_A_DAY);
+```
+
+
 ### Avoid Encodings
 
 Adding type or scope into the name adds extra burned to the reader. Instead of naming your function *userAccount.getAccountBalance()* you can simply name it *userAccount.getBalance()* since the user understand that the balance amount is part of the *userAccount* class.
@@ -51,6 +68,35 @@ Most often we actually don't want the user of our code to know that they are usi
 ### Avoid Mental Mapping
 
 When writing code we want to make it as easy as possible for the reader to understand what exactly the code is trying to achieve. Therefore we want to avoid making the reader perform translation in their head. Single letters should only be used for loop counters (i, j, k) and nothing else. Clarity is king. Every reader should understand the code with no extra effort. 
+
+**Bad:**
+
+```javascript
+const locations = ["Austin", "New York", "San Francisco"];
+locations.forEach(l => {
+  doStuff();
+  doSomeOtherStuff();
+  // ...
+  // ...
+  // ...
+  // Wait, what is `l` for again?
+  dispatch(l);
+});
+```
+
+**Good:**
+
+```javascript
+const locations = ["Austin", "New York", "San Francisco"];
+locations.forEach(location => {
+  doStuff();
+  doSomeOtherStuff();
+  // ...
+  // ...
+  // ...
+  dispatch(location);
+});
+```
 
 ### Class Names
 
@@ -79,6 +125,35 @@ Problem domain defines the problem at an abstract level, to later be solved in t
 ### Add Meaningful Context
 
 If a variable needs more meaningful context, move it to the right context, or create the context. Ex: *addressState* vs *Address.state()*. Break long functions into smaller functions, this helps manage the context of each function.
+
+**Bad:**
+
+```javascript
+const Car = {
+  carMake: "Honda",
+  carModel: "Accord",
+  carColor: "Blue"
+};
+
+function paintCar(car) {
+  car.carColor = "Red";
+}
+```
+
+**Good:**
+
+```javascript
+const Car = {
+  make: "Honda",
+  model: "Accord",
+  color: "Blue"
+};
+
+function paintCar(car) {
+  car.color = "Red";
+}
+```
+
 
 ### Conclusion
 
