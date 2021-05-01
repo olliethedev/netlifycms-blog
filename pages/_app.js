@@ -1,3 +1,4 @@
+import "../public/fonts/inter.css";
 import "../styles/globals.scss";
 import React from 'react'
 
