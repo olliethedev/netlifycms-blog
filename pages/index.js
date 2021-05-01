@@ -1,18 +1,19 @@
 import React from "react";
-import Head from "next/head";
 import Link from "next/link";
 import moment from "moment";
 import styles from "../styles/Home.module.scss";
+import Head, {HEAD_TYPES} from '../components/Head';
 
 const Home = ({ post }) => {
   const { attributes, html } = post;
-  const { title, hero, postsReversed } = attributes;
+  const { title, hero, postsReversed, description } = attributes;
   return (
     <>
-      <Head>
-        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-        <title>Ollie Codes | Blog</title>
-      </Head>
+      <Head title={`Ollie Codes | ${title}`}
+        description={description}
+        type={HEAD_TYPES.website}
+        image={hero}
+      />
       <div className={styles.body}>
         <div className={styles.hero}>
           <img className="hero-pop" src={hero} alt="hero" />

@@ -1,17 +1,17 @@
 import React from "react";
-import Head from "next/head";
 import moment from "moment";
+import Head, {HEAD_TYPES} from '../../components/Head';
 import styles from "../../styles/Portfolio.module.scss";
 
 const Portfolio = ({ project }) => {
   const { attributes, html } = project;
-  const { title, hero, projects } = attributes;
+  const { title, hero, projects, description } = attributes;
   return (
     <>
-      <Head>
-        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-        <title>Ollie Codes | Portfolio</title>
-      </Head>
+      <Head title={`Ollie Codes | ${title}`}
+        description={description}
+        type={HEAD_TYPES.website}
+        image={hero}/>
       <div className={styles.body}>
         <div className={styles.hero}>
           <img className="hero-pop" src={hero} alt="hero" />

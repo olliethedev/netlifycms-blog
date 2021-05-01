@@ -1,8 +1,9 @@
 import React from "react";
 import fs from "fs";
 import path from "path";
-import Head from "next/head";
+import striptags from "striptags";
 import styles from "../../styles/Post.module.scss";
+import Head, {HEAD_TYPES} from '../../components/Head';
 import "prismjs/themes/prism-okaidia.css";
 
 const Post = ({ post }) => {
@@ -10,9 +11,9 @@ const Post = ({ post }) => {
 
   return (
     <>
-      <Head>
-        <title>Ollie Codes | {attributes.title}</title>
-      </Head>
+      <Head title={`Ollie Codes | ${attributes.title}`}
+        description={striptags(html).substring(0, 250)+"..."}
+        type={HEAD_TYPES.article}/>
       <article className={styles.body}>
         <div>
           <div dangerouslySetInnerHTML={{ __html: html }}></div>

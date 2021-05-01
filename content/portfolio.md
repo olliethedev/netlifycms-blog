@@ -1,6 +1,7 @@
 ---
 title: Portfolio
 hero: "/img/hero_portfolio.png"
+description: Some of my past work.
 projects:  
   - name: "Aion Staking Wallet"
     date: 2021-04-18T20:10:46.594Z

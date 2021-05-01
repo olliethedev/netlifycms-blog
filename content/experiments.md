@@ -1,6 +1,7 @@
 ---
 title: Experiments
 hero: /img/hero_experiments.png
+description: Playing around with new technologies and ideas.
 projects:
   - name: Tiny-Slack
     date: 2021-02-18T20:10:46.594Z

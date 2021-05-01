@@ -2,6 +2,7 @@
 title: Latest Posts
 date: 2019-03-17T19:31:20.591Z
 hero: /img/hero_blog.png
+description: My tutorials and general thoughts on all things tech related.
 posts:
   - name: "Android Data Binding : How to Integrate Into Existing App"
     date: 2018-11-18T20:10:46.594Z
