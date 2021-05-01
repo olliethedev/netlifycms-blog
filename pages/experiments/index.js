@@ -1,43 +1,34 @@
 import React from "react";
-import moment from "moment";
-import Head, {HEAD_TYPES} from '../../components/Head';
+import Head, { HEAD_TYPES } from "../../components/Head";
 import styles from "../../styles/Experiments.module.scss";
+import Hero from "../../components/Hero";
+import Row from "../../components/Row";
 
 const Experiments = ({ project }) => {
   const { attributes, html } = project;
   const { title, hero, projects, description } = attributes;
   return (
     <>
-      <Head title={`Ollie Codes | ${title}`}
+      <Head
+        title={`Ollie Codes | ${title}`}
         description={description}
         type={HEAD_TYPES.website}
-        image={hero}/>
+        image={hero}
+      />
       <div className={styles.body}>
-        <div className={styles.hero}>
-          <img className="hero-pop" src={hero} alt="hero" />
-          <h1>{title}</h1>
-          <div dangerouslySetInnerHTML={{ __html: html }} />
-        </div>
-        <ul>
+        <Hero title={title} description={html} image={hero} />
+        <div className={styles.list}>
           {projects.map((project, k) => (
-            <div key={k}>
-              <a
-                href={project.link}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <h2 className={styles.link}>{project.name}</h2>
-              </a>
-              <sup>
-                {project.date &&
-                  moment(project.date, "YYYY-MM-DDTHH:mm:ss.SSS").format(
-                    "MMM YYYY"
-                  )}
-              </sup>
-              <p>{project.description}</p>
-            </div>
+            <Row
+              key={project.link}
+              link={project.link}
+              title={project.name}
+              description={project.description}
+              date={project.date}
+              dateFormat="MMM YYYY"
+            />
           ))}
-        </ul>
+        </div>
       </div>
     </>
   );
@@ -46,7 +37,6 @@ const Experiments = ({ project }) => {
 export default Experiments;
 
 export async function getStaticProps() {
-  console.log("building...");
   const [experiments] = await Promise.all([
     import(`../../content/experiments.md`).catch(() => null),
   ]);

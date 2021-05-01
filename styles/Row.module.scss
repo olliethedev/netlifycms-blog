@@ -1,0 +1,23 @@
+@import "./base.scss";
+
+.row {
+  transition: all 0.4s;
+  padding: 0 15px;
+  flex-grow: 1;
+  &:hover {
+    background-color: rgb(0, 0, 0);
+    color: white !important;
+    sup {
+      color: rgb(216, 196, 21);
+    }
+  }
+  h2 {
+    margin-bottom: 4px;
+  }
+  sup {
+    color: rgb(99, 99, 99);
+  }
+  p {
+    margin-top: 5px;
+  }
+}

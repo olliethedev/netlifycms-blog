@@ -21,9 +21,9 @@ const Head = ({ title, description, type, image }) => {
   );
 };
 Head.propTypes = {
-  title: PropTypes.string,
-  description: PropTypes.string,
-  type: PropTypes.oneOf(["website", "article"]),
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  type: PropTypes.oneOf(["website", "article"]).isRequired,
 };
 export default Head;
 export { HEAD_TYPES };
