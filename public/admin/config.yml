@@ -12,6 +12,7 @@ collections:
       file: "content/home.md"
       fields:
         - { label: "Title", name: "title", widget: "string"}
+        - { label: "Description", name: "description", widget: "string"}
         - { label: "Publish Date", name: "date", widget: "datetime" }
         - { label: "Hero Image", name: "hero", widget: "image" }
         - { label: "Body", name: "body", widget: "markdown"}
@@ -28,6 +29,7 @@ collections:
       file: "content/portfolio.md"
       fields:
         - { label: "Title", name: "title", widget: "string"}
+        - { label: "Description", name: "description", widget: "string"}
         - { label: "Hero Image", name: "hero", widget: "image" }
         - { label: "Body", name: "body", widget: "markdown"}
         - label: 'Projects'
@@ -43,6 +45,7 @@ collections:
       file: "content/experiments.md"
       fields:
         - { label: "Title", name: "title", widget: "string"}
+        - { label: "Description", name: "description", widget: "string"}
         - { label: "Hero Image", name: "hero", widget: "image" }
         - { label: "Body", name: "body", widget: "markdown"}
         - label: 'Projects'
