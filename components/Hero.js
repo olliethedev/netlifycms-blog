@@ -14,6 +14,8 @@ const Hero = ({image, title, description}) => {
 
 Hero.propTypes = {
     image: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
 }
 
 export default Hero
