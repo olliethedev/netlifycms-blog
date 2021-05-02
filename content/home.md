@@ -1,8 +1,8 @@
 ---
 title: Latest Posts
+description: My tutorials and general thoughts on all things tech related.
 date: 2019-03-17T19:31:20.591Z
 hero: /img/hero_blog.png
-description: My tutorials and general thoughts on all things tech related.
 posts:
   - name: "Android Data Binding : How to Integrate Into Existing App"
     date: 2018-11-18T20:10:46.594Z
@@ -90,5 +90,12 @@ posts:
     date: 2021-04-18T20:10:46.594Z
     description: The distinction between objects and data structures is an important
       one. And knowing when to use each kind is crucial to writing clean code.
+  - date: 2021-05-02T14:46:58.397Z
+    link: /posts/clean-code-error-handling
+    name: "Clean Code: Error Handling"
+    description: Depending on the problem we are trying to solve, a large part of
+      our code can be related to error handling. If the error handling code
+      obscures logic, it's wrong. So let's explore some of the ways we can keep
+      our error handling clean.
 ---
 My tutorials and general thoughts on all things tech related.
