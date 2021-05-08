@@ -97,5 +97,11 @@ posts:
       our code can be related to error handling. If the error handling code
       obscures logic, it's wrong. So let's explore some of the ways we can keep
       our error handling clean.
+  - date: 2021-05-08T21:19:24.832Z
+    link: /posts/clean-code-unit-tests
+    name: "Clean Code: Unit Tests"
+    description: Tests are as important to the health of the project as the
+      production code is. Tests enhance the flexibility, maintainability, and
+      reusability of the production code.
 ---
 My tutorials and general thoughts on all things tech related.
