@@ -101,11 +101,11 @@ posts:
       the productivity?
   - name: "Clean Code: Objects and Data Structures"
     link: /posts/clean-code-objects-and-data-structures
-    image: /img/hero_blog.png
+    image: img/datastructures.png
     date: 2021-04-18T20:10:46.594Z
     description: The distinction between objects and data structures is an important
       one. And knowing when to use each kind is crucial to writing clean code.
-  - image: /img/hero_blog.png
+  - image: img/error_handling.jpeg
     date: 2021-05-02T14:46:58.397Z
     link: /posts/clean-code-error-handling
     name: "Clean Code: Error Handling"
