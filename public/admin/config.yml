@@ -22,6 +22,7 @@ collections:
           fields:
             - { label: "Name", name: "name", widget: "string"}
             - { label: "Date", name: "date", widget: "datetime" }
+            - { label: "Image", name: "image", widget: "image" }
             - { label: "Description", name: "description", widget: "text"}
             - { label: "Link", name: "link", widget: "text"}
     - label: "Portfolio"
