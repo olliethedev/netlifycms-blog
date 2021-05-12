@@ -5,18 +5,21 @@ import Link from "next/link";
 import styles from "../styles/Row.module.scss";
 
 const Row = (
-  { link, isLinkRoute, title, description, date, dateFormat } = {
+  { link, isLinkRoute, title, description, date, dateFormat, image } = {
     dateFormat: "MMM YYYY",
     isLinkRoute: false,
   }
 ) => {
   const content = (
     <div className={styles.row}>
-      <h2>{title}</h2>
-      <sup>
-        {date && moment(date, "YYYY-MM-DDTHH:mm:ss.SSS").format(dateFormat)}
-      </sup>
-      <p>{description}</p>
+      <div className={styles.image} style={{backgroundImage:`url('${image}')`}} />
+      <div className={styles.content}>
+        <h2>{title}</h2>
+        <sup>
+          {date && moment(date, "YYYY-MM-DDTHH:mm:ss.SSS").format(dateFormat)}
+        </sup>
+        <p>{description}</p>
+      </div>
     </div>
   );
   return isLinkRoute ? (
@@ -35,6 +38,7 @@ Row.propTypes = {
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
   date: PropTypes.string.isRequired,
+  image: PropTypes.string.isRequired,
   dateFormat: PropTypes.string,
 };
 

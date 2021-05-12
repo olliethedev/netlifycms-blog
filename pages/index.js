@@ -22,6 +22,7 @@ const Home = ({ post }) => {
             <Row
               key={post.link}
               link={post.link}
+              image={post.image}
               isLinkRoute={true}
               title={post.name}
               description={post.description}
