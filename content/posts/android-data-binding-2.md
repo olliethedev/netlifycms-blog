@@ -53,7 +53,7 @@ The parameter in the @BindingAdapter declares the name of the custom attribute
 
 And this is how our custom fonts look:
 
-![example](img/font_example.png "example")
+![example](/img/font_example.png "example")
 
 An that is it! Now we have an attribute we can use to set custom fonts on out sub classes of **TextView** like **EditTexts** and **Buttons.**\
 \
@@ -82,7 +82,7 @@ Next we use the new :srcUrl and :error attributes in our layout:
 
 And this is how our image looks:
 
-![example](img/url_img_example.png "example")
+![example](/img/url_img_example.png "example")
 
 ## Dynamic Adapter Magic
 
@@ -318,7 +318,7 @@ In our Activity **onCreate()** we pass the list of models and the **LinearLay
 \
 Result:
 
-![example](img/list_result.png "example")
+![example](/img/list_result.png "example")
 
 ## Conclusion:
 
