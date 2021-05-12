@@ -51,7 +51,8 @@ posts:
     description: "RecyclerViewBindingAdapter Library This library provides a
       powerful yet reusable RecyclerView adapter that leverages
       ObservableArrayList and DataBinding to simplify your life. "
-    name: "Android Lists Made Easy: DataBinding + RecyclerViewBindingAdapter Library"
+    name: "Android Lists Made Easy: DataBinding + RecyclerView Binding Adapter
+      Library"
   - link: /posts/android-architecture-components-and-data-binding
     image: img/ezgif-5-a842fa6408.gif
     date: 2019-08-18T20:10:46.594Z
