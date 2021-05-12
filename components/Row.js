@@ -12,7 +12,7 @@ const Row = (
 ) => {
   const content = (
     <div className={styles.row}>
-      <div className={styles.image} style={{backgroundImage:`url('${image}')`}} />
+      {image && <div className={styles.image} style={{backgroundImage:`url('${image}')`}} />}
       <div className={styles.content}>
         <h2>{title}</h2>
         <sup>
