@@ -121,5 +121,12 @@ posts:
       production code is. Tests enhance the flexibility, maintainability, and
       reusability of the production code.
     image: img/tdd.png
+  - date: 2021-10-27T15:44:45.187Z
+    name: "Clean Code: Classes"
+    image: img/clipart1408362.png
+    description: Writing Classes that do what they meant to while keeping it under
+      1k lines of code is a skill. Let's explore how we can organize our code
+      into classes in a smart way.
+    link: /posts/clean-code-classes
 ---
 My tutorials and general thoughts on all things tech related.
