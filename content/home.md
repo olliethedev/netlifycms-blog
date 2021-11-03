@@ -135,5 +135,10 @@ posts:
     description: "Writing clean code is hard, writing clean concurrent code is even
       harder. Let's look into some techniques to simplify logic in parallel
       processes. "
+  - date: 2021-11-03T17:46:48.727Z
+    name: "Clean Code: Heuristics"
+    image: img/unnamed.gif
+    description: Shorthand rules for writing clean code.
+    link: /posts/clean-code-heuristics
 ---
 My tutorials and general thoughts on all things tech related.
