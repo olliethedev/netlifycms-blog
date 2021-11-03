@@ -128,5 +128,12 @@ posts:
       1k lines of code is a skill. Let's explore how we can organize our code
       into classes in a smart way.
     link: /posts/clean-code-classes
+  - date: 2021-11-03T00:41:43.716Z
+    link: /posts/clean-code-concurrency
+    name: "Clean Code: Concurrency"
+    image: img/concurrency.png
+    description: "Writing clean code is hard, writing clean concurrent code is even
+      harder. Let's look into some techniques to simplify logic in parallel
+      processes. "
 ---
 My tutorials and general thoughts on all things tech related.
