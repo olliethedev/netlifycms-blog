@@ -1,5 +1,4 @@
 import React from "react";
-import styles from "../styles/Home.module.scss";
 import Head, { HEAD_TYPES } from "../components/Head";
 import Hero from "../components/Hero";
 import Row from '../components/Row';
@@ -10,14 +9,14 @@ const Home = ({ post }) => {
   return (
     <>
       <Head
-        title={`Ollie Codes | ${title}`}
+        title={`Ollie The Dev | ${title}`}
         description={description}
         type={HEAD_TYPES.website}
         image={hero}
       />
-      <div className={styles.body}>
+      <div className="content-body">
         <Hero title={title} description={html} image={hero} />
-        <div className={styles.list}>
+        <div className="content-list">
           {postsReversed.map((post) => (
             <Row
               key={post.link}
@@ -28,6 +27,7 @@ const Home = ({ post }) => {
               description={post.description}
               date={post.date}
               dateFormat="MMM YYYY"
+              category="article"
             />
           ))}
         </div>

@@ -1,6 +1,5 @@
 import React from "react";
 import Head, { HEAD_TYPES } from "../../components/Head";
-import styles from "../../styles/Portfolio.module.scss";
 import Hero from "../../components/Hero";
 import Row from "../../components/Row";
 
@@ -10,14 +9,14 @@ const Portfolio = ({ project }) => {
   return (
     <>
       <Head
-        title={`Ollie Codes | ${title}`}
+        title={`Ollie The Dev | ${title}`}
         description={description}
         type={HEAD_TYPES.website}
         image={hero}
       />
-      <div className={styles.body}>
+      <div className="content-body">
         <Hero title={title} description={html} image={hero} />
-        <div className={styles.list}>
+        <div className="content-list">
           {projects.map((project, k) => (
             <Row
               key={project.link}
@@ -26,6 +25,7 @@ const Portfolio = ({ project }) => {
               description={project.description}
               date={project.date}
               dateFormat="YYYY"
+              category="portfolio"
             />
           ))}
         </div>
