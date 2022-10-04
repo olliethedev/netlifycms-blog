@@ -3,7 +3,11 @@ title: "Abundance Is Here: How Artificial Intelligence Will usher In a New Era
   of Plenty"
 date: 2022-10-04T02:17:38.517Z
 ---
+![](/img/8fefb8bf-17bd-4930-a0da-95e469816dc1.webp)
+
 It's no secret that artificial intelligence has been making huge strides in recent years. But what many people don't realize is how this technology will soon usher in an era of extreme abundance. The recent advances in AI technology have allowed us to work smarter and faster, producing higher quality products and services. This is going to change the world as we know it, and make it a much better place for everyone. But what exactly does this mean for you? Keep reading to find out!
+
+![](/img/ddd80b3c-8923-49d0-aaa9-25b407bf22e8.webp)
 
 ### Historical Context
 
@@ -12,6 +16,8 @@ History has shown us that each new generation of technology brings with it an ex
 We are already seeing marginal improvements in AI every year, but these marginal improvements are going to start compounding very soon. As AI gets better at solving problems and creating things, its own rate of improvement will increase exponentially. This is what Kurzweil calls the "intelligence explosion."
 
 So what does this mean for us? It means that we need to start preparing for this new era of plenty. We need to learn how to use AI responsibly and make sure that everyone has access to its benefits.Ban this technology, and the future may be bleak. However, with it, unimaginable potential is at your fingertips.
+
+![](/img/31808238-18fb-4cab-9a4c-864784713cb4.webp)
 
 ### Extreme Abundance of Everything
 
@@ -25,6 +31,8 @@ If an AI assistant can make a software developer ten times more productive, then
 
 The same thing is happening in every other industry where AI is being adopted. We are seeing a rapid decrease in the cost of goods and services that are enabled by AI. And this trend is only going to continue as AI gets better. This is good news for consumers, but bad news for businesses that don't adapt.
 
+![](/img/20077073-37b4-417b-8ae9-1f7223059798.webp)
+
 ### Extreme Variance
 
 Nassim Nicolas Taleb has popularized the concept of Extrimistan, or a world of extreme variance. He argues that there are two types of distributions:
@@ -35,6 +43,8 @@ Nassim Nicolas Taleb has popularized the concept of Extrimistan, or a world of e
 Artificial Intelligence falls under the Extrimistan category, because it is subject to exponential compounding technological improvements. This means that AI will get better and better at an accelerating pace. As it does, it will increasingly be able to take on more and more jobs currently done by humans.
 
 This has major implications for abundance and scarcity. As AI gets better at doing more things, the things it can do will become increasingly cheaper. This is already happening with creative tasks like creative writing, image editing, and even software development. But imagine as AI gets more sophisticated, it will be able to take on more and more complex tasks.
+
+![](/img/19487465-8d80-455a-b079-86e7ea73b3e3.webp)
 
 ### Unlimited Custom Content on Demand
 
@@ -49,6 +59,8 @@ Video games will also become more realistic, and will be able to generate vast v
 According to Balaji Srinivasan, a partner at Andreessen Horowitz, “The arrival of digital life will mean the end of scarcity.” He believes that artificial intelligence will usher in a new era of abundance, where we will have more than enough of everything.
 
 This is an exciting time to be alive, and it is only going to get better from here. Thanks to artificial intelligence, the future is looking brighter than ever before. Balaji Srinivasan's vision for the future is one that I can't wait to see come to fruition. Balaji also predicts that by 2045, the majority of humans will choose to augment themselves with technology, and I believe that this is also a very real possibility. Brain-computer interfaces, artificial intelligence, and other forms of technology will slowly but surely become a part of our everyday lives until they are indistinguishable from us.
+
+![](/img/08565b20-a00d-4139-9a40-a70403e0ea60.webp)
 
 ### Wealth Gap
 
@@ -66,4 +78,5 @@ In the past, technological revolutions have always led to more abundance and not
 
 Thanks for reading!
 
-And thanks [jasper.ai](https://jasper.ai) for helping me write this article!
+Thanks [jasper.ai](https://jasper.ai) for helping me write this article.\
+Thanks [lexica](https://lexica.art/) for the images.
