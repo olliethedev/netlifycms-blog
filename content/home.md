@@ -140,5 +140,13 @@ posts:
     image: img/unnamed.gif
     description: Shorthand rules for writing clean code.
     link: /posts/clean-code-heuristics
+  - date: 2022-10-04T02:41:17.100Z
+    name: "Abundance Is Here: How Artificial Intelligence Will usher In a New Era of
+      Plenty"
+    image: img/8fefb8bf-17bd-4930-a0da-95e469816dc1.webp
+    description: "It's no secret that artificial intelligence has been making huge
+      strides in recent years. But what many people don't realize is how this
+      technology will soon usher in an era of extreme abundance. "
+    link: ai-era-of-plenty
 ---
 My tutorials and general thoughts on all things tech related.
