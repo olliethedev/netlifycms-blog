@@ -147,6 +147,6 @@ posts:
     description: "It's no secret that artificial intelligence has been making huge
       strides in recent years. But what many people don't realize is how this
       technology will soon usher in an era of extreme abundance. "
-    link: ai-era-of-plenty
+    link: /posts/abundance-is-here-how-artificial-intelligence-will-usher-in-a-new-era-of-plenty
 ---
 My tutorials and general thoughts on all things tech related.
