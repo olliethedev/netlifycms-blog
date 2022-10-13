@@ -5,7 +5,7 @@
 /* common tailwind components */
 @layer components {
   .content-body {
-    @apply relative bg-gray-50 px-4 pb-20 sm:px-6 lg:px-8 lg:pb-28;
+    @apply relative bg-gray-50 px-4 pb-20 sm:px-6 lg:px-8 lg:pb-28 pt-24;
   }
   .content-list {
     @apply mx-auto mt-12 grid max-w-lg gap-5 lg:max-w-none lg:grid-cols-3;
@@ -18,6 +18,8 @@
   margin-left: auto;
   margin-right: auto;
   word-wrap: break-word;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .post-body pre {

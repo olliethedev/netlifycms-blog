@@ -4,6 +4,8 @@ import path from "path";
 import striptags from "striptags";
 import Head, { HEAD_TYPES } from "../../components/Head";
 import "prismjs/themes/prism-okaidia.css";
+import Navbar from '../../components/Navbar';
+import Footer from '../../components/Footer';
 
 const Post = ({ post }) => {
   const { attributes, html } = post;
@@ -15,11 +17,13 @@ const Post = ({ post }) => {
         description={striptags(html).substring(0, 250) + "..."}
         type={HEAD_TYPES.article}
       />
+      <Navbar currentName="Blog"/>
       <article className="post-body">
         <div className="blog-post">
           <div dangerouslySetInnerHTML={{ __html: html }}></div>
         </div>
       </article>
+      <Footer />
     </>
   );
 };

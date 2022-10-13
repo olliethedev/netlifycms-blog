@@ -2,6 +2,8 @@ import React from "react";
 import Head, { HEAD_TYPES } from "../../components/Head";
 import Hero from "../../components/Hero";
 import Row from "../../components/Row";
+import Navbar from '../../components/Navbar';
+import Footer from '../../components/Footer';
 
 const Experiments = ({ project }) => {
   const { attributes, html } = project;
@@ -14,6 +16,7 @@ const Experiments = ({ project }) => {
         type={HEAD_TYPES.website}
         image={hero}
       />
+      <Navbar currentName="Experiments"/>
       <div className="content-body">
         <Hero title={title} description={html} image={hero} />
         <div className="content-list">
@@ -30,6 +33,7 @@ const Experiments = ({ project }) => {
           ))}
         </div>
       </div>
+      <Footer />
     </>
   );
 };
