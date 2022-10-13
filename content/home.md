@@ -148,5 +148,13 @@ posts:
       strides in recent years. But what many people don't realize is how this
       technology will soon usher in an era of extreme abundance. "
     link: /posts/abundance-is-here-how-artificial-intelligence-will-usher-in-a-new-era-of-plenty
+  - date: 2022-10-13T01:26:22.356Z
+    name: "AWS Amplify: The Web Developer’s Secret Weapon"
+    description: If you're a web developer, then you know that time is always of the
+      essence. You need to be able to build projects quickly and efficiently if
+      you want to stay ahead of the competition. That's why AWS Amplify is such
+      a great tool.
+    image: img/aws_amplify_logo.jpeg
+    link: /posts/aws-amplify-the-web-developer’s-secret-weapon
 ---
 My tutorials and general thoughts on all things tech related.
