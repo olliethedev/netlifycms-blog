@@ -2,9 +2,11 @@
 title: "The project idea framework: How to get to the finishline"
 date: 2022-11-25T23:25:17.744Z
 ---
+# The project idea framework: How to get to the finish line
+
 ![](/img/office-space.png)
 
-## What is a project idea framework and why do you need one
+## What is a project idea framework and why do you need one?
 
 The project idea framework is a tool that can be used by individuals and companies alike to shape competitive advantage into an actionable plan. The framework provides a starting point for entrepreneurs, startups, and other businesses to follow as they develop their products or services. By breaking down the project into separate pieces – from identifying target markets to creating measurable objectives – the framework allows creatives to understand exactly what’s needed to reach success. Having clarity around a dream helps focus resources so there are no surprises along the way. Far from being a limit on creativity, a project idea framework actually frees up energy by helping people think through all the different phases in advance; knowing what would need to happen next can relieve anxieties and friction that comes from working without a plan in place. Ultimately, it can help ensure not just successful implementation but also long-term sustainability.
 
