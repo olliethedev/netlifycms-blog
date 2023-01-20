@@ -3,6 +3,15 @@ title: Portfolio
 description: Some of my past work.
 hero: /img/hero_portfolio.png
 projects:
+  - date: 2022-01-20T21:26:00.000Z
+    name: Thinkific
+    link: https://thinkific.com/
+    description: "Thinkific is a software platform that enables entrepreneurs to
+      create, market, sell, and deliver their own online courses. "
+  - date: 2021-01-20T21:23:00.000Z
+    name: Moves Financial
+    link: https://movesfinancial.com/
+    description: "Moves Financial marketing site. "
   - name: Aion Staking Wallet
     date: 2021-04-18T20:10:46.594Z
     link: https://my-aion.theoan.com/home
@@ -33,15 +42,6 @@ projects:
     date: 2016-04-18T20:10:46.594Z
     link: https://play.google.com/store/apps/details?id=com.rbc.mobile.rjj0
     description: Mobile app allowing individuals to use their reward points
-  - date: 2021-01-20T21:23:00.000Z
-    name: Moves Financial
-    link: https://movesfinancial.com/
-    description: "Moves Financial marketing site. "
-  - date: 2022-01-20T21:26:00.000Z
-    name: Thinkific
-    link: https://thinkific.com/
-    description: "Thinkific is a software platform that enables entrepreneurs to
-      create, market, sell, and deliver their own online courses. "
 ---
 
 Some of my past work.
