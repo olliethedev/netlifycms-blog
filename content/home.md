@@ -165,5 +165,16 @@ posts:
       entrepreneurs, startups, and other businesses to follow as they develop
       their products or services.
     link: /posts/the-project-idea-framework-how-to-get-to-the-finishline
+  - date: 2023-01-27T17:16:48.670Z
+    link: /posts/the-future-of-web-development-amplify-uis-advanced-features-and-ecosystem
+    image: img/1695992589_a_dream_of_a_stylistic_representation_of_a_design_framework__vector_art__material_design_.png
+    name: "The Future of Web Development: Amplify UI's Advanced Features and
+      Ecosystem"
+    description: The Amplify UI library is a powerful tool for building user
+      interfaces for web applications. It is built with plain React and CSS,
+      providing a solid foundation for building UIs and design systems. The
+      library consists of connected components that simplify complex workflows
+      like authentication and dynamic data, primitive components that form the
+      building blocks of a UI, and themes to make Amplify UI fit any brand.
 ---
 My tutorials and general thoughts on all things tech related.
