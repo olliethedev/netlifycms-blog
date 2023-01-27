@@ -1,8 +1,16 @@
 ---
 title: Experiments
-hero: /img/hero_experiments.png
 description: Playing around with new technologies and ideas.
+hero: /img/hero_experiments.png
 projects:
+  - date: 2023-01-24T19:12:15.560Z
+    name: AWS Amplify Cheat Sheet
+    link: https://amplifycheatsheet.com/
+    description: "One-page guide to AWS Amplify: usage, examples, and more. "
+  - date: 2023-01-20T21:34:15.968Z
+    name: Amplifiers
+    link: https://github.com/olliethedev/amplifiers
+    description: Custom GraphQL transformers to extent AWS Amplify functionality.
   - name: Tiny-Slack
     date: 2021-02-18T20:10:46.594Z
     link: https://tiny-slack.olliecodes.com/

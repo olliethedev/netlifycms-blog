@@ -156,5 +156,14 @@ posts:
       a great tool.
     image: img/aws_amplify_logo.jpeg
     link: /posts/aws-amplify-the-web-developer’s-secret-weapon
+  - date: 2022-11-26T01:20:05.130Z
+    name: "The Project Idea Framework: How to get to the finish line"
+    image: img/office-space.png
+    description: This project idea framework is a tool that can be used by
+      individuals and companies alike to shape competitive advantage into an
+      actionable plan. The framework provides a starting point for
+      entrepreneurs, startups, and other businesses to follow as they develop
+      their products or services.
+    link: /posts/the-project-idea-framework-how-to-get-to-the-finishline
 ---
 My tutorials and general thoughts on all things tech related.
