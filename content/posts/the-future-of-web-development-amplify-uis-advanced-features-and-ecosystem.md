@@ -2,15 +2,15 @@
 title: "The Future of Web Development: Amplify UI's Advanced Features and Ecosystem"
 date: 2023-01-27T16:58:31.656Z
 ---
-![](img/1695992589_a_dream_of_a_stylistic_representation_of_a_design_framework__vector_art__material_design_.png)
+![](/img/1695992589_a_dream_of_a_stylistic_representation_of_a_design_framework__vector_art__material_design_.png)
 
 # Introduction
 
 The Amplify UI library is a powerful tool for building user interfaces for web applications. It is built with plain React and CSS, providing a solid foundation for building UIs and design systems. The library consists of connected components that simplify complex workflows like authentication and dynamic data, primitive components that form the building blocks of a UI, and themes to make Amplify UI fit any brand. The library is themeable, responsive, composable, and accessible. And on top of it all it also plays nicely with other UI components or styling frameworks.
 
-# \
 
-Connected Components
+
+# Connected Components
 
 This is by far the coolest feature of the framework. The connected components in Amplify UI are pre-built, reusable components that handle common workflows like authentication and account management with AWS Cognito or file uploads to your AWS S3 buckets. These components handle the heavy lifting, allowing developers to focus on building the unique features of their application. By using these connected components, developers can easily add features like user sign-up and sign-in, password recovery, and data storage and retrieval. With the Authenticator component, developers can add authentication to their app in under 10 lines of code. The Authenticator works seamlessly with the Amplify CLI to automatically work with your backend, no extra configuration needed!
 
@@ -43,6 +43,8 @@ import { FileUploader } from '@aws-amplify/ui-react';
 ```
 
 Amplify UI has most components built for ReactJS but you can find components like the Authenticator also implemented for Angular, React-Native, Vue and Flutter. You can learn more about cloud connected components in the official [documentation](https://ui.docs.amplify.aws/react/connected-components/authenticator).
+
+
 
 # Primitive Components
 
@@ -88,6 +90,8 @@ import { Flex, Text, TextField, Button } from '@aws-amplify/ui-react';
 ```
 
 You can learn more about Amplify UI components in the official [documentation](https://ui.docs.amplify.aws/react/components).
+
+
 
 # Customization
 
@@ -146,25 +150,28 @@ You can also override the theme values in CSS with overriding classes or global 
 
 You can learn more about Amplify UI themes in the official [documentation](https://ui.docs.amplify.aws/react/theming).
 
-# \
-Amplify Studio
+
+
+# Amplify Studio
 
 With [Amplify Studio](https://docs.amplify.aws/console/), and specifically the new UI Library, developers can design components in Figma, bind them to their data, and generate production-ready React code. Go from design to production-ready code in minutes and eliminate the design-development gap.\
 The [setup](https://docs.amplify.aws/console/uibuilder/figmatocode/) is extremely easy! Just link your Figma file to Amplify Studio, and watch your Figma components be converted into ReactJS components.\
 The Amplify Studio feature allows for visual data binding, event handling, and working with collections of repeating items. This allows for efficient building of interactive components and simplifies the process of mapping fields to backend data models, automatically including all data bindings in generated code.\
 For example you can connect your ProductCard Figma components to your Product data model:
 
-![](img/screen-shot-2023-01-27-at-11.17.49-am.png)
+![](/img/screen-shot-2023-01-27-at-11.17.49-am.png)
 
 You can even create a filtered and paginated collection of ProductCard elements:
 
-![](img/screen-shot-2023-01-27-at-11.17.04-am.png)
+![](/img/screen-shot-2023-01-27-at-11.17.04-am.png)
 
 But there is more! Amplify Studio lets you generate form elements that you can integrate into your application in order to create or update your Data models:
 
-![](img/screen-shot-2023-01-27-at-11.21.24-am.png)
+![](/img/screen-shot-2023-01-27-at-11.21.24-am.png)
 
 The Amplify Studio UI Library tool, which is an integral part of the Amplify UI framework, is undergoing constant development and improvement. As the ecosystem of tools and services expands, it is becoming increasingly easier to quickly create cloud-connected applications using Design-to-code solutions, as well as access professionally designed Figma Amplify UI [templates](https://www.amplifyui.com/) to speed up the process of building visually appealing web applications.
+
+
 
 # Conclusion
 
