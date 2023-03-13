@@ -3,6 +3,8 @@ title: "Introducing Figma Templates for AWS Amplify UI: The Missing Piece for
   Streamlined Development!"
 date: 2023-03-13T02:51:30.081Z
 ---
+[![Foo](https://blog.olliecodes.com/img/og-default-banner.png)](https://www.amplifyui.com/)
+
 # Introducing Figma Templates for AWS Amplify UI: The Missing Piece for Streamlined Development!
 
 ## Introduction 
