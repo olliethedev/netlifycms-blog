@@ -184,6 +184,6 @@ posts:
       and effort while creating high-quality, professional-looking interfaces
       with pre-designed, reusable components that seamlessly integrate with AWS
       Amplify. "
-    link: /posts/content/posts/introducing-figma-templates-for-aws-amplify-ui-the-missing-piece-for-streamlined-development
+    link: /posts/introducing-figma-templates-for-aws-amplify-ui-the-missing-piece-for-streamlined-development
 ---
 My tutorials and general thoughts on all things tech related.
