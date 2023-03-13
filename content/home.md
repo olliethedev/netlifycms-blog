@@ -179,7 +179,7 @@ posts:
   - date: 2023-03-13T03:07:56.826Z
     name: "Introducing Figma Templates for AWS Amplify UI: The Missing Piece for
       Streamlined Development!"
-    image: img/marketplace-main.webp
+    image: img/og-default-banner.png
     description: "Simplify Full Stack Development with Figma UI Templates. Save time
       and effort while creating high-quality, professional-looking interfaces
       with pre-designed, reusable components that seamlessly integrate with AWS
