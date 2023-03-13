@@ -5,8 +5,7 @@ date: 2023-03-13T02:51:30.081Z
 ---
 # Introducing Figma Templates for AWS Amplify UI: The Missing Piece for Streamlined Development!
 
-## \
-Introduction 
+## Introduction 
 
 Are you tired of the challenges and time-consuming process of full-stack development? Fortunately, with the help of cloud computing and serverless architectures, AWS Amplify has made it easier than ever to build scalable and secure cloud-powered applications. This powerful platform provides a range of tools, UI libraries, and building blocks that simplify the development process and allow developers to focus on creating the best possible user experiences. In this blog post, we will explore how using Figma UI templates in combination with AWS Amplify can save you even more time and effort while still delivering visually appealing and engaging user interfaces. By leveraging the power of UI templates, you can free up more time to focus on delivering value to your end users and take your full-stack development process to the next level. 
 
@@ -14,7 +13,8 @@ Are you tired of the challenges and time-consuming process of full-stack develop
 
 In recent years, AWS Amplify has become a popular platform for developers due to its ability to simplify the complexity of building full-stack applications. Its ease of use, flexibility, and robust set of features have already attracted a significant number of developers. Meanwhile, platforms like Shopify, Squarespace, and WordPress are also highly popular among users because of their ability to quickly and easily build a professional-looking website without coding, thanks to templates and themes. However, until recently, AWS Amplify lacked a collection of pre-designed templates, which could further streamline the development process. With the introduction of [Figma UI templates](https://amplifyui.com) for AWS Amplify, developers now have access to a range of professionally designed templates that can be easily customized to fit their specific needs, leading to faster development times and more intuitive user interfaces. 
 
-![](/img/og-default-banner.png)
+
+[![Foo](https://blog.olliecodes.com/img/og-default-banner.png)](https://www.amplifyui.com/)
 
 ## Simplify Full Stack Development with Figma UI Templates 
 
@@ -34,7 +34,7 @@ Figma UI templates and AWS Amplify Studio is a powerful combination that allows 
 
 Our Figma UI templates are the perfect choice for developers looking for a professionally designed and fully customizable website. Our experienced professionals have built the templates with the latest design trends in mind and they are fully responsive, ensuring that they look great on any device. The templates are easy to modify and customize, allowing you to easily change the colors, fonts, layouts, and other design elements to suit your needs and preferences. We also provide sample source code for each template, making it easy for you to get started with your project. With AWS Amplify integration, you can easily build and deploy your website, and the Figma-to-Code feature of AWS Amplify Studio makes it easy to convert our templates into cloud connected ReactJS components. Our templates are regularly updated with user-suggested improvements to ensure that the designs are always up-to-date with the latest design trends and technologies.
 
-![](/img/og-default-banner.png)
+[![Foo](https://blog.olliecodes.com/img/og-default-banner.png)](https://www.amplifyui.com/)
 
 ##  Conclusion 
 
