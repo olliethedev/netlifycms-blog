@@ -176,5 +176,14 @@ posts:
       library consists of connected components that simplify complex workflows
       like authentication and dynamic data, primitive components that form the
       building blocks of a UI, and themes to make Amplify UI fit any brand.
+  - date: 2023-03-13T03:07:56.826Z
+    name: "Introducing Figma Templates for AWS Amplify UI: The Missing Piece for
+      Streamlined Development!"
+    image: img/marketplace-main.webp
+    description: "Simplify Full Stack Development with Figma UI Templates. Save time
+      and effort while creating high-quality, professional-looking interfaces
+      with pre-designed, reusable components that seamlessly integrate with AWS
+      Amplify. "
+    link: /posts/content/posts/introducing-figma-templates-for-aws-amplify-ui-the-missing-piece-for-streamlined-development
 ---
 My tutorials and general thoughts on all things tech related.
