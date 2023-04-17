@@ -2,7 +2,7 @@
 title: Building Specialized Chat Assistants with AWS and OpenAI
 date: 2023-04-17T16:02:17.518Z
 ---
-# Building Specialized Chat Assistants with Advanced Language Models and Embeddings
+# Building Specialized Chat Assistants with AWS and OpenAI
 
 ## Introduction
 
