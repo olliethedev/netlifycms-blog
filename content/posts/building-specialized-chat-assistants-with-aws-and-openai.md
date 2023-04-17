@@ -21,11 +21,11 @@ A specialized chat assistant system can be built using a few modules, such as an
 1. Generate the embeddings from a body of data. This involves removing irrelevant or redundant information. Converting the data into a suitable format. And adding bias or metadata to the embedding. 
 2. To answer user queries, first, look up relevant data based on embeddings similarity, then add the extra data to the chat context. This also involves fetching the associated text or information from the database such as links to source documents.
 
-![](img/screely-1681747267204.png)
+![](/img/screely-1681747267204.png)
 
 In the first flow, the API server generates the embeddings using the OpenAI API and stores the vectors in an OpenSearch instance. In the second flow, the server looks up embeddings for a user query based on cosine similarity. The server then creates a meta prompt that includes the looked-up text from embeddings and the original user query. Finally, the server uses the OpenAI API to generate text completion, which should answer the user's original query.
 
-![](img/screely-1681747061759.png)
+![](/img/screely-1681747061759.png)
 
 For the [AWS Amplify chatbot](https://main.d2psigfonv0s2q.amplifyapp.com/), we create embeddings from the documentation available on GitHub. Although these are markdown files and not an ideal source, they work reasonably well most of the time. When a user asks a question in the chat, we use a system prompt that guides the AI to act like a pair programmer working with AWS Amplify, focusing on code and providing concise responses.
 
