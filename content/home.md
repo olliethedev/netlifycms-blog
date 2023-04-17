@@ -185,5 +185,13 @@ posts:
       with pre-designed, reusable components that seamlessly integrate with AWS
       Amplify. "
     link: /posts/introducing-figma-templates-for-aws-amplify-ui-the-missing-piece-for-streamlined-development
+  - date: 2023-04-17T16:18:37.446Z
+    link: /posts/building-specialized-chat-assistants-with-aws-and-openai
+    description: "In recent years, there has been a growing interest in building
+      specialized chat assistants to cater to various domains and industries.
+      These chatbots provide tailored assistance to users by leveraging the
+      power of large language models (LLMs) and embeddings. "
+    image: img/screely-1681747061759.png
+    name: Building Specialized Chat Assistants with AWS and OpenAI
 ---
 My tutorials and general thoughts on all things tech related.
