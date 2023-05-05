@@ -44,6 +44,11 @@ projects:
       text descriptions into beautiful, functional design elements. As we move
       further into the digital age, efficiency and creativity are essential, and
       this tool brings both to the table.
+  - date: 2023-05-05T19:19:24.300Z
+    name: Amplify UI | Figma Templates
+    link: https://www.amplifyui.com/
+    description: A collection of high-quality Figma templates for building websites
+      using the Amplify UI framework.
 ---
 
 Playing around with new technologies and ideas.
