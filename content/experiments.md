@@ -35,6 +35,15 @@ projects:
     date: 2019-11-18T20:10:46.594Z
     link: https://github.com/olliethedev/dais-social-platform
     description: Original smart contract implementation of the Defy debate platform.
+  - date: 2023-05-05T19:16:23.277Z
+    link: https://www.texttodesign.ai/
+    name: Text To Design | Figma AI Assistant
+    description: Text to Design, an innovative AI-powered Figma plugin, is inspired
+      by the need to streamline and revolutionize the design process. At its
+      core, the inspiration behind Text to Design is the idea of transforming
+      text descriptions into beautiful, functional design elements. As we move
+      further into the digital age, efficiency and creativity are essential, and
+      this tool brings both to the table.
 ---
 
 Playing around with new technologies and ideas.
