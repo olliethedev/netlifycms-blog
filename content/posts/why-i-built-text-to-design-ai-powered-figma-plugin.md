@@ -1,8 +1,8 @@
 ---
-title: "Why I built Text to Design : AI-powered Figma plugin"
+title: "Why I built Text to Design : AI Powered Figma plugin"
 date: 2023-05-05T19:26:37.210Z
 ---
-# Why I built Text to Design
+# Why I built Text to Design - AI Powered Figma Plugin
 
 ![](/img/plugin-store-banner.png)
 
