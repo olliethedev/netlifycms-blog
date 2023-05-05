@@ -42,6 +42,10 @@ projects:
     date: 2016-04-18T20:10:46.594Z
     link: https://play.google.com/store/apps/details?id=com.rbc.mobile.rjj0
     description: Mobile app allowing individuals to use their reward points
+  - date: 2023-05-05T19:17:54.548Z
+    name: "311AI | "
+    link: http://311ai.co/
+    description: The Ultimate Municipal Customer Service Experience
 ---
 
 Some of my past work.
