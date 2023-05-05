@@ -193,5 +193,15 @@ posts:
       power of large language models (LLMs) and embeddings. "
     image: img/screely-1681747061759.png
     name: Building Specialized Chat Assistants with AWS and OpenAI
+  - date: 2023-05-05T19:42:03.564Z
+    description: Text to Design, an innovative AI-powered Figma plugin, is inspired
+      by the need to streamline and revolutionize the design process. At its
+      core, the inspiration behind Text to Design is the idea of transforming
+      text descriptions into beautiful, functional design elements. As we move
+      further into the digital age, efficiency and creativity are essential, and
+      this tool brings both to the table.
+    name: "Why I built Text to Design: AI-powered Figma plugin"
+    image: img/plugin-store-banner.png
+    link: /posts/why-i-built-text-to-design-ai-powered-figma-plugin
 ---
 My tutorials and general thoughts on all things tech related.
