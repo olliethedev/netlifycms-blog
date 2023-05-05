@@ -4,7 +4,7 @@ date: 2023-05-05T19:26:37.210Z
 ---
 # Why I built Text to Design
 
-![](img/plugin-store-banner.png)
+![](/img/plugin-store-banner.png)
 
 \
 \
