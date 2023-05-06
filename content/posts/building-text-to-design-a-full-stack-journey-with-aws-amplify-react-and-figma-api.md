@@ -5,7 +5,7 @@ date: 2023-05-06T17:11:58.912Z
 ---
 # Building Text-To-Design Figma Plugin
 
-Unveiling the complexity behind a simple user interface, this article seeks to shed light on the technical odyssey of building the "Text To Design" Figma Plugin. This powerful tool, capable of converting text prompts into design elements, symbolizes a fusion of AI and UX design. While users enjoy the seamless interaction, a robust architecture works tirelessly under the hood, connecting various dots in the background.
+Unveiling the complexity behind a simple user interface, this article seeks to shed light on the technical odyssey of building the [Text To Design](https://www.texttodesign.ai/) Figma Plugin. This powerful tool, capable of converting text prompts into design elements, symbolizes a fusion of AI and UX design. While users enjoy the seamless interaction, a robust architecture works tirelessly under the hood, connecting various dots in the background.
 
 ![](/img/text-to-design-arch.drawio.png)
 
@@ -39,4 +39,4 @@ The plugin uses Cognito for authentication, employing a passwordless login mecha
 
 ## C﻿onclusion
 
-In summary, the Text To Design Figma plugin is a testament to the power of combining modern development tools and practices. It demonstrates how challenges can be transformed into innovative solutions, resulting in a tool that bridges the gap between AI and UX design. As we continue to evolve and improve, we look forward to bringing even more advanced capabilities to our users, pushing the boundaries of what's possible with AI and design.
+In summary, the [Text To Design](https://www.texttodesign.ai/) Figma plugin is a testament to the power of combining modern development tools and practices. It demonstrates how challenges can be transformed into innovative solutions, resulting in a tool that bridges the gap between AI and UX design. As we continue to evolve and improve, we look forward to bringing even more advanced capabilities to our users, pushing the boundaries of what's possible with AI and design.
