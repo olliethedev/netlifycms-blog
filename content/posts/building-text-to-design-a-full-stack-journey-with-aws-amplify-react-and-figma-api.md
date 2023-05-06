@@ -7,25 +7,29 @@ date: 2023-05-06T17:11:58.912Z
 
 Unveiling the complexity behind a simple user interface, this article seeks to shed light on the technical odyssey of building the [Text To Design](https://www.texttodesign.ai/) Figma Plugin. This powerful tool, capable of converting text prompts into design elements, symbolizes a fusion of AI and UX design. While users enjoy the seamless interaction, a robust architecture works tirelessly under the hood, connecting various dots in the background.
 
-![](/img/text-to-design-arch.drawio.png)
-
 ## Frontend Magic with React and Figma API
 
 The frontend of the plugin is a classic React UI. React's component-based architecture provides a solid foundation for building user interfaces. Its declarative nature makes the code more predictable and easier to debug, while the rich ecosystem of libraries and tools enables rapid development.
 
 However, when it comes to Figma plugins, one has to make an exception in terms of storage. Figma plugins run in an isolated JavaScript environment, meaning they don't have access to modules such as `localStorage` or `fetch`. This limitation is addressed using Figma's `figma.clientStorage` API, which allows storing and retrieving simple data.
 
+## Navigating Amazon API Gateway's Timeout Limit
+
+An important aspect of the backend is the REST serverless API that interfaces with the AI functions. However, we faced a hurdle with the Amazon API Gateway's 30-second timeout limit. This limit could prove restrictive for some tasks, particularly those involving complex AI computations that take over 30 seconds in many cases.
+
+To overcome this, we adopted a task worker implementation. When a new call comes in, a new work task is created, which a task worker will eventually process. This workaround ensures that we don't run into timeout issues and can handle tasks that require longer processing times.
+
+![](/img/text-to-design-arch.drawio.png)
+
 ## Backend Powerhouse with AWS Amplify
 
 The backend is where the real heavy-lifting happens. Built with AWS Amplify, it capitalizes on the benefits offered by this comprehensive set of tools and services. Amplify simplifies the process of setting up scalable and secure cloud services, allowing developers to focus on the application logic.
 
-The handling of Language Model (LLM) action prompts was a significant challenge that was met with an innovative solution. Each LLM action prompt is transformed into a separate work task. The advantage of this approach is twofold: Firstly, it provides the ability to chain tasks in different sequences, giving flexibility in handling complex workflows. Secondly, it allows for the retry of failed tasks, enhancing the system's resilience.
+The handling of Language Model (LLM) action prompts was a significant challenge that was met with an innovative solution. This was a challenge because each prompt would take a few minutes to run in some cases. So we made each LLM action prompt into a separate work task. The advantage of this approach is twofold: Firstly, it provides the ability to chain tasks in different sequences, giving flexibility in handling complex workflows. Secondly, it allows for the retry of failed tasks, enhancing the system's resilience. 
 
-## Navigating Amazon API Gateway's Timeout Limit
+W﻿e also used [LangChain](https://blog.langchain.dev/) is a powerful library for AI/LLM related work. It simplifies the development of AI-powered applications, allowing us to focus on creating innovative features for our plugin. The AI related code was only a few lines.
 
-An important aspect of the backend is the REST serverless API that interfaces with the AI functions. However, we faced a hurdle with the Amazon API Gateway's 30-second timeout limit. This limit could prove restrictive for some tasks, particularly those involving complex AI computations.
-
-To overcome this, we adopted a task worker implementation. When a new call comes in, a new work task is created, which a task worker will eventually process. This workaround ensures that we don't run into timeout issues and can handle tasks that require longer processing times.
+![](/img/screely-1683394807951.png)
 
 ## Seamless Data Flow with AppSync
 
