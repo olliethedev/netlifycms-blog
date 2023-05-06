@@ -203,5 +203,15 @@ posts:
     name: "Why I built Text to Design: AI-powered Figma plugin"
     image: img/plugin-store-banner.png
     link: /posts/why-i-built-text-to-design-ai-powered-figma-plugin
+  - date: 2023-05-06T17:29:16.442Z
+    link: /posts/building-text-to-design-a-full-stack-journey-with-aws-amplify-react-and-figma-api
+    description: Unveiling the complexity behind a simple user interface, this
+      article seeks to shed light on the technical odyssey of building the "Text
+      To Design" Figma Plugin. This powerful tool, capable of converting text
+      prompts into design elements, symbolizes a fusion of AI and UX design.
+      While users enjoy the seamless interaction, a robust architecture works
+      tirelessly under the hood, connecting various dots in the background.
+    name: Building Text-To-Design Figma Plugin
+    image: img/text-to-design-arch.drawio.png
 ---
 My tutorials and general thoughts on all things tech related.
