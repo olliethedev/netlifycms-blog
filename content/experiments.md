@@ -49,6 +49,13 @@ projects:
     link: https://www.amplifyui.com/
     description: A collection of high-quality Figma templates for building websites
       using the Amplify UI framework.
+  - date: 2023-10-01T23:57:54.268Z
+    name: Programmer Mugs Store
+    link: https://programmermugs.com
+    description: Explore our unique collection of developer-themed mugs! Perfect for
+      software engineers, programmers, and coding enthusiasts. Express your
+      passion for coding with our creative, humorous, and inspirational mugs.
+      Great for gifts!
 ---
 
 Playing around with new technologies and ideas.
