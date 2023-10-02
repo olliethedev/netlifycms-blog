@@ -213,5 +213,10 @@ posts:
       tirelessly under the hood, connecting various dots in the background.
     name: Building Text-To-Design Figma Plugin
     image: img/text-to-design-arch.drawio.png
+  - date: 2023-10-01T23:58:44.874Z
+    link: /posts/brewing-passion-one-mug-at-a-time-introducing-programmermugs-com
+    description: The "why" and the "how" behind my new e-commerce venture.
+    name: Programmer Mugs Store
+    image: img/mug-site-banner-3.png
 ---
 My tutorials and general thoughts on all things tech related.
