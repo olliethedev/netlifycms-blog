@@ -218,5 +218,11 @@ posts:
     description: The "why" and the "how" behind my new e-commerce venture.
     name: Programmer Mugs Store
     image: img/mug-site-banner-3.png
+  - date: 2024-02-23T15:51:12.529Z
+    link: /posts/solving-hard-problems-figma-ai-assistant
+    description: Solving hard problems and coming up with interesting solutions
+      while building a Figma AI Assistant plugin.
+    name: Solving Hard Problems - Figma AI Assistant
+    image: img/1705337672371.png
 ---
 My tutorials and general thoughts on all things tech related.
